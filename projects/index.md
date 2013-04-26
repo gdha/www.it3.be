@@ -13,7 +13,7 @@ On Open Source projects we give more details.
 
 ## Relax-and-Recover (rear)
 
-<img src="{{ site.url }}/images/logo/rear_logo_100.png" alt="Rear logo">
+<img src="{{ site.url }}/images/logo/rear_logo_100.png" width="50" height="50" alt="Rear logo">
 
 Disasters do happen, big or small, so we better be prepared before these happen. [Relax-and-Recover](http://relax-and-recover.org) is an open source project started in 2006.
 

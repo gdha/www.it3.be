@@ -1,8 +1,8 @@
 pygments: true
 exclude: README.md
 
-#url: http://www.it3.be
-url: http://fedora18:4000
+url: http://www.it3.be
+#url: http://fedora18:4000
 career_email: info@it3.be
 engineer_email: gratien.dhaese@it3.be
 
@@ -28,4 +28,4 @@ authors:
     twitter: gratiendh
     gplus: 108453598894869810538
     gravatar: 79ba5ce1fe4f33cf89996260d80e77ec
-    about: Besides IT3 Consultants, he is the author of several Open Source projects (see <a href="https://github.com/gdha" title="Github page of Gratien">GitHub page of Gratien D'haese)</a>.
+    about: Besides IT3 Consultants, he is the author of several Open Source projects (see <a href="https://github.com/gdha" title="Github page of Gratien">GitHub page of Gratien Dhaese)</a>.
