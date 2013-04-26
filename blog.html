@@ -1,0 +1,20 @@
+---
+layout: default
+title: IT3 Consultants Blog
+description: Index list of all blogs of technology department from IT3 Consultants company
+type: Blog
+author: gratien
+---
+
+<meta itemprop="name" content="IT3 Consultants Blog">
+<meta itemprop="copyrightyear" content="2013">
+<meta itemprop="copyrightholder" content="IT3 Consultants bvba">
+<h1>Blog Posts</h1>
+<br>
+<ul>
+	{% for post in site.posts %}
+	<li itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+		<a href="{{site.url}}{{ post.url }}/" itemprop="url">{{ post.title }}</a> ({{ post.date | date: "%B %d, %Y"}})
+	</li>
+	{% endfor %}
+</ul>
