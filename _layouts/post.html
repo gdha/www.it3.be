@@ -13,10 +13,10 @@ layout: default
 			By <span itemprop="name">{{ site.authors[page.author].name }}</span> ({{ page.author }})
 			<div class="author_sites">
 				{% if site.authors[page.author].github %}
-				<a rel="author" itemprop="url" href="https://github.com/{{ site.authors[page.author].github }}"><img src="{{ site.url }}/img/github.png" alt="GitHub Profile"></a>
+				<a rel="author" itemprop="url" href="https://github.com/{{ site.authors[page.author].github }}"><img src="{{ site.url }}/images/github.png" alt="GitHub Profile"></a>
 				{% endif %}
 				{% if site.authors[page.author].twitter %}
-				<a rel="author" itemprop="url" href="https://twitter.com/{{ site.authors[page.author].twitter }}"><img src="{{ site.url }}/img/twitter.png" alt="Twitter Profile"></a>
+				<a rel="author" itemprop="url" href="https://twitter.com/{{ site.authors[page.author].twitter }}"><img src="{{ site.url }}/images/twitter.png" alt="Twitter Profile"></a>
 				{% endif %}
 				{% if site.authors[page.author].gplus %}
 				<link rel="author" href="https://plus.google.com/{{ site.authors[page.author].gplus }}?rel=author">

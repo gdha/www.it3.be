@@ -23,3 +23,4 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Business Continuity procedures (installation, setup and configuration)
  * Backup and disaster recovery procedures (installation, setup and configuration)
  * Code writing for Open Source projects, such as relax-and-recover, WBEMextras, adhocr, mkCDrec
+ * Support Service for [relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html)
