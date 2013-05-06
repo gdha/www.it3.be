@@ -31,5 +31,5 @@ If you need someone to work with you for 3-6 months, we can help you run your co
  * Implementing backup and restore solutions (HP Omniback or Data Protector, Amanda, and many others)
  * Developing and/or implementing Security Policies
  * Implementing firewall software according Security Policies (Firewall-I, Open Source solutions)
- * On-site migration of [Make CD-ROM Recovery (mkCDrec)](mkcdrec.sourceforge.net) towards [Relax and Recover (Rear)](relax-and-recover.org)
- * On-site hands-on and/or implementation of [Relax and Recover (Rear)](relax-and-recover.org)
+ * On-site migration of [Make CD-ROM Recovery (mkCDrec)](http://mkcdrec.sourceforge.net) towards [Relax and Recover (Rear)](http://relax-and-recover.org)
+ * On-site hands-on and/or implementation of [Relax and Recover (Rear)](http://relax-and-recover.org)
