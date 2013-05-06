@@ -13,12 +13,12 @@ If the local configuration file `/etc/mkcdrec.conf` exists then check some local
 
 Use the following if construction in the <tt>Makefile</tt> to accomplish this:
 
-````
-ISOFS_DIR := $(shell if  grep -q ISOFS_DIR= /etc/mkcdrec.conf 2>/dev/null; then \
-   grep ISOFS_DIR= /etc/mkcdrec.conf | grep -v ^\# | cut -d= -f 2; \
-else \
-   grep ISOFS_DIR= Config.sh | grep -v ^\# | cut -d= -f 2; \
-fi)
-````
+
+    ISOFS_DIR := $(shell if  grep -q ISOFS_DIR= /etc/mkcdrec.conf 2>/dev/null; then \
+       grep ISOFS_DIR= /etc/mkcdrec.conf | grep -v ^\# | cut -d= -f 2; \
+    else \
+       grep ISOFS_DIR= Config.sh | grep -v ^\# | cut -d= -f 2; \
+    fi)
+
 
 The important rule is that all commands should be on one line (or continued with `\`).

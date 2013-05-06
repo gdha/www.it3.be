@@ -13,7 +13,7 @@ What do we offer as a company?
 
 The following list of consultancy tasks are offered by IT3 Consultants:
 
- * Senior system management of UNIX and Windows systems
+ * [Senior system management of UNIX and Windows systems]({{ site.url }}/company/senior-sysadmin.html)
  * Re-engineering your IT infrastructure
  * Technical Project Management
  * Assist the customer in fine-tune mission critical servers
