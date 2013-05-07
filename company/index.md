@@ -19,6 +19,7 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Assist the customer in fine-tune mission critical servers
  * Assist the customer in finding bottlenecks in his network (LAN, WAN, Intranet, Internet)
  * Consultancy work around UNIX and Windows servers (including security)
+ * [Linux support services]({{ site.url }}/company/linux-support.html)
  * Cluster setup and configuration (HP-UX/Linux ServiceGuard and Veritas Cluster Server)
  * Business Continuity procedures (installation, setup and configuration)
  * Backup and disaster recovery procedures (installation, setup and configuration)
