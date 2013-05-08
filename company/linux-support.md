@@ -29,4 +29,4 @@ The key benefits we as a company have are the following:
    - Lead developer and project manager of the Open Source Project [Make CD-ROM Recovery (mkCDrec)](http://mkcdrec.sourceforge.net) since 2000.
    - Maintainer of the Open Source Project [mkCDrec Utilities](http://mkcdrec.sourceforge.net/utilities.html) since 2001.
    - Lead developer and project manager of the Open Source Project [Relax and Recover (Rear)](http://relax-and-recover.org) since 2006.
-   - Maintainer f the Open Source Project [Ad-hoc Copy and Run (adhocr)]
+   - Maintainer of the Open Source Project [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html)
