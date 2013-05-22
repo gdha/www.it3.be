@@ -5,11 +5,11 @@ description: An overview of the Company and Services
 author: gratien
 ---
 
-# IT3 Consultants Company page
+## IT3 Consultants Company page
 
 What do we offer as a company?
 
-## Consultancy Offerings
+### Consultancy Offerings
 
 The following list of consultancy tasks are offered by IT3 Consultants:
 
@@ -25,3 +25,7 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Backup and disaster recovery procedures (installation, setup and configuration)
  * Code writing for Open Source projects, such as relax-and-recover, WBEMextras, adhocr, mkCDrec
  * Support Service for [relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html)
+
+### Where is the company located?
+
+<a href="http://goo.gl/maps/HZ3hL" target="_blank">View Map in separate window</a>
