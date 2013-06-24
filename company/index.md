@@ -7,7 +7,7 @@ author: gratien
 
 ## IT3 Consultants Company page
 
-[How we can help you get what you want.] ]({{ site.url }}/company/howwecanhelp.html)
+[How we can help you get what you want]({{ site.url }}/company/howwecanhelp.html).
 What do we offer as a company?
 
 ### Consultancy Offerings

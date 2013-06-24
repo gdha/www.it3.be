@@ -1,11 +1,11 @@
 ---
 layout: default
 title: Company and Services
-description: How We Can help You GET What You Want
+description: How We Can Help You Get What You Want
 author: gratien
 ---
 
-## How We Can help You GET What You Want
+## How We Can Help You Get What You Want
 
 IT3 Consultants can work with you to find out what's going wrong with your computers, your network, your overworked System Administrators, and your company's entire computing strategy.
 We can help you figure out where your computing environment should be heading, and work with you to take it there. We've done it for other companies, and we can do it for you!
