@@ -1,8 +1,7 @@
 pygments: true
-exclude: README.md
+exclude: [README.md]
 
 url: http://www.it3.be
-#url: http://fedora18:4000
 career_email: info@it3.be
 engineer_email: gratien.dhaese@it3.be
 
