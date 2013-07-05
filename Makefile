@@ -12,7 +12,7 @@ ifeq ($(OFFICIAL),0)
 else
 	@echo "_config.yml has the correct url"
 	@echo -e "\033[1m== Building website ==\033[0;0m"
-	jekyll --no-server
+	jekyll build
 endif
 
 upload: build
