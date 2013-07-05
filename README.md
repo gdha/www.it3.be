@@ -19,12 +19,28 @@ $ sudo gem install redcarpet
 
 To run the server (default port 4000), clone the repo and run from the root directory:
 
+With older versions then `jekyll 1.0.3` use:
+
 ```shell
 jekyll --server
 ```
 
+With `jekyll 1.0.3` or higher versions use:
+
+```shell
+jekyll serve
+```
+
 If you want to just compile the code (into the `_site` directory):
+
+With older versions then `jekyll 1.0.3` use:
 
 ```shell
 jekyll --no-server
+```
+
+With `jekyll 1.0.3` or higher versions use:
+
+```shell
+jekyll build
 ```
