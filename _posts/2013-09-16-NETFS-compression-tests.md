@@ -14,12 +14,12 @@ The default values defined in `/usr/share/rear/conf/default.conf` are the follow
     BACKUP_PROG_COMPRESS_OPTIONS="--gzip"
     BACKUP_PROG_COMPRESS_SUFFIX=".gz"
 
-However, we can easily overrule these setting in the `/etc/rear/local.conf` file. To use `bzip2` define the folliwng variables in the `local.conf` file:
+However, we can easily overrule these setting in the `/etc/rear/local.conf` file. To use `bzip2` define the following variables in the `local.conf` file:
 
-    ACKUP_PROG_COMPRESS_OPTIONS="--bzip2"
+    BACKUP_PROG_COMPRESS_OPTIONS="--bzip2"
     BACKUP_PROG_COMPRESS_SUFFIX=".bz2"
 
-Another compression method is xz:
+Another compression method is `xz`:
 
     BACKUP_PROG_COMPRESS_OPTIONS="--xz"
     BACKUP_PROG_COMPRESS_SUFFIX=".xz"
@@ -27,4 +27,4 @@ Another compression method is xz:
 We have performed some compression tests with rear:
 <img src="{{ site.url }}/images/netfs-compression-comparison.png" border="0" align="left" alt="Rear compression test" />
 
-We may conclude that the generic compression method selected (gzip) is a good choice.
+We may conclude that the generic compression method selected (`gzip`) is a good choice.

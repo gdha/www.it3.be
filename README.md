@@ -28,7 +28,7 @@ jekyll --server
 With `jekyll 1.0.3` or higher versions use:
 
 ```shell
-jekyll serve
+jekyll server
 ```
 
 If you want to just compile the code (into the `_site` directory):
