@@ -17,3 +17,9 @@ endif
 
 upload: build
 	lftp -e 'mirror -R $(SITE) /wwwroot ; bye' apache07.hostbasket.com
+
+server:
+	@echo -e "\033[1m== Building website ==\033[0;0m"
+	echo -e "\033[1m== Use http://localhost:4000/ ==033[0;0m"
+	jekyll server
+
