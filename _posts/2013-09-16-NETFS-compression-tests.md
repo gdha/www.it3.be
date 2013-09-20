@@ -29,3 +29,4 @@ We have performed some compression tests with rear:
 <br>
 
 We may conclude that the generic compression method selected (`gzip`) is a good choice.
+
