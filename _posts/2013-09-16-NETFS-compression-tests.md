@@ -26,5 +26,6 @@ Another compression method is `xz`:
 
 We have performed some compression tests with rear:
 <img src="{{ site.url }}/images/netfs-compression-comparison.png" border="0" align="left" alt="Rear compression test" />
+<br>
 
 We may conclude that the generic compression method selected (`gzip`) is a good choice.
