@@ -39,6 +39,36 @@ We can imagine this may sound a bit overwhelming to you, but we can help you out
 
 Above list are paid services and are delivered by IT3 Consultants' author of rear (Gratien D'haese)
 
+## Existing Support Contracts
+
+* Bug Express Edition
+* Business Edition
+* Enterprise Edition
+
+For more information please contact us.
+
 ## Free Rear Support Services
 
 However, the rear community also delivers support for rear free of charge, but no guarantee of quick answers or fixes. Therefore, see our [rear-users mailing list](http://lists.relax-and-recover.org/mailman/listinfo/rear-users) and [issue tracker](https://github.com/rear/rear/issues)
+
+## Rear Workshops
+
+We organize on request rear workshops in our offices or at customer's location. The workshop content is customer detailored and contains plenty of lab exercises. An example of such workshop agenda could be:
+
+-	Introduction to rear
+-	How to set it up and configure it
+-	Design a Disaster Recovery Plan for your environment
+-	Understand the basic settings
+-	Security considerations
+-	Lab 1: Set it up in our lab environment
+-	Complex configurations and possibilities
+-	Lab2: make a rescue image and boot from it
+-	Understanding the Disaster Recovery Process of a server
+-	Lab 3: make a backup of the server with rear and do a recovery on a virtual machine
+-	Disaster Recovery as a Service
+-	Lab 4: making a central depot of rescue images
+-	Lab 5: disaster recovery and the Cloud
+-	Wrap up and Frequently Asked Questions
+
+
+On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html)
