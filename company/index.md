@@ -24,8 +24,13 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Cluster setup and configuration (HP-UX/Linux ServiceGuard and Veritas Cluster Server)
  * Business Continuity procedures (installation, setup and configuration)
  * Backup and disaster recovery procedures (installation, setup and configuration)
- * Code writing for Open Source projects, such as relax-and-recover, WBEMextras, adhocr, mkCDrec
- * Support Service for [relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html)
+ * Code writing for Open Source projects, such as
+   - [Relax-and-Recover (rear)](http://relax-and-recover.org/)
+   - [Config to HTML (cfg2html)](http://www.cfg2html.com/)
+   - [WBEMextras](http://wbemextras.github.io/)
+   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html)
+   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html)
+ * [Support Service for Relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html)
 
 ### Where is the company located?
 
