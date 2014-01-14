@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Copy to HTML (cfg2html) project
+title: Config to HTML (cfg2html) project
 description: Project cfg2html sponsored by IT3 Consultants
 author: gratien
 tags: [cfg2html, open source, korn shell script, HP-UX, SunOS, AIX, Linux, IT3 Consultants, GPL]
 ---
-## Copy to HTML (cfg2html) project
+## Config to HTML (cfg2html) project
 
 [Cfg2html](http://www.cfg2html.com/) is a little utility to collect the necessary system configuration files and system set-up to an ASCII file and HTML file. Simple to use and very helpful in disaster recovery situations.
 

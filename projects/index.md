@@ -21,4 +21,10 @@ Commercial Operating Systems ship tools to help you prepare or create images for
 
 Rear is a modular disaster recovery engine completely written in bash and released under GPL v2 license. Rear can store the details about your systems on hard disks (network, USB, SAN,...) or network (PXE, NFS, CIFS,...) including the complete backup. It also creates a bootable image which you need to recreate your system from scratch. Furthermore, thanks to the modular concept, we can integrate rear with foreign backup solutions (commercial or not) to do the backup and restore part which makes rear very scalable in big enterprises.
 
+## Config To HTML (cfg2html)
 
+[Cfg2html]({{ site.url }}/projects/cfg2html.html) is a little utility to collect the necessary system configuration files and system set-up to an ASCII file and HTML file. Simple to use and very helpful in disaster recovery situations.
+
+## Ad-hoc Copy and Run (adhocr)
+
+[adhocr]({{ site.url }}/projects/adhocr.html) is a little `expect` utility to parallelize execution of commands on lots of systems.
