@@ -13,7 +13,7 @@ tags: [rear, relax and recover, linux disaster recovery solution, IT3 Consultant
 <img src="{{ site.url }}/images/logo/rear_logo_100.png" width="51" height="58" border="0" align="left" alt="Rear logo" />
 Rear stands for <strong>Re</strong>lax <strong>a</strong>nd <strong>r</strong>ecover and is a Linux Disaster Recovery framework written in bash shell.
 
-We have a dedicated web site on rear at [Github:](http://relax-and-recover.org/)
+We have a dedicated web site on rear at [http://relax-and-recover.org/](http://relax-and-recover.org/)
 
 The code is completely free and is published with the GNU Public Licence version 2. We're very proud that rear has become part of the Fedora and OpenSuSe distriution since April 2009.  That shows that the code become quite mature and has proven to be very stable.
 

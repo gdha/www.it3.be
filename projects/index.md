@@ -15,7 +15,7 @@ On Open Source projects we give more details.
 
 <img src="{{ site.url }}/images/logo/rear_logo_100.png" width="30" height="30" alt="Rear logo">
 
-[Relax-and-Recover]({{ site.url }}/projects/rear.html) is an open source Disaster Recovery tool handling bare metal restores in an automated way (aw much as possible). Making snapshot of your system can be done *on-line* and send over to remote storage such as NAS, CIFS, USB, Network,...
+[Relax-and-Recover]({{ site.url }}/projects/rear.html) is an open source Disaster Recovery tool handling bare metal restores in an automated way (as much as possible). Making snapshots of your system can be done *on-line* and send over to remote storage such as NAS, CIFS, USB, Network,...
 
 ## Config To HTML (cfg2html)
 
