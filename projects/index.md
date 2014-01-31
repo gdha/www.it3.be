@@ -24,3 +24,9 @@ On Open Source projects we give more details.
 ## Ad-hoc Copy and Run (adhocr)
 
 [adhocr]({{ site.url }}/projects/adhocr.html) is a little `expect` utility to parallelize execution of commands on lots of systems.
+
+
+## Make CD-ROM Recovery (mkcdrec)
+
+[mkCDrec]({{ site.url }}/projects/mkcdrec.html) is the predecessor project of rear and is now phasing out in favour of [rear]({{ site.url }}/projects/rear.html). Getting support is still possible, but no longer free of charge.
+

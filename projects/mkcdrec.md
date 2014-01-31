@@ -8,6 +8,8 @@ tags: [mkcdrec, rear, open source, linux disaster recovery solution, IT3 Consult
 
 ##  Make CD-ROM Recovery (mkCDrec) project
 
+<img src="{{ site.url }}/images/mkcdrec_logo.jpg" alt="mkcdrec logo">
+
 The Open Source project "[Make CD-ROM Recovery](http://mkcdrec.sourceforge.net)" or abbreviated mkCDrec was launched for the first time in November 2000. Thousands of customers are using mkCDrec to create a disaster recovery image of their Linux systems.
 
 IT3 Consultants used to support this Open Source project free of charge via Sourceforge tracker web page, but we stopped this because we wanted to put our energy into new projects like [Relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html), which is the successor of mkCDrec anyway.
