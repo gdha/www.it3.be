@@ -25,12 +25,12 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Business Continuity procedures (installation, setup and configuration)
  * Backup and disaster recovery procedures (installation, setup and configuration)
  * Code writing for Open Source projects, such as
-   - [Relax-and-Recover (rear)](http://relax-and-recover.org/)
-   - [Config to HTML (cfg2html)](http://www.cfg2html.com/)
-   - [WBEMextras](http://wbemextras.github.io/)
-   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html)
-   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html)
- * [Support Service for Relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html)
+   - [Relax-and-Recover (rear)]({{ site.url }}/projects/rear.html): linux DR Framwork
+   - [Config to HTML (cfg2html)](http://www.cfg2html.com/): linux Configuration Collector
+   - [WBEMextras](http://wbemextras.github.io/): HP SIM software installer and configurator for HP-UX systems
+   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html): deploy and run software on many sumultanous systems
+   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution
+ * [Support Services for Relax-and-Recover (rear)]({{ site.url }}/rear-support/)
 
 ### Where is the company located?
 

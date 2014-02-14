@@ -18,18 +18,21 @@ If you need someone to work with you for 3-6 months, we can help you run your co
  * Over 15 years of experience in communications and operating systems support and development.
  * In-depth understanding of heterogeneous computing and communications systems, Internet access and security, Unix internals, hardware/software interfaces, project management, client management, systems management and customer support.
  * MySQL and Oracle administration knowledge.
- * HP's ServiceGuard cluster configuration/installation and maintenance
+ * HP Serviceguard cluster configuration/installation and maintenance (on HP-UX and GNU/Linux systems), including
+   - Campus cluster
+   - Metro Cluster
+   - Disaster Tolerant Cluster (or Continental cluster)
  * In-depth knowledge on the following hardware platforms and Operating Systems:
    - PA-RISC and IA64 (Hewlett-Packard), HP/UX  11.00, 11i, 11.23 and 11.31
    - SPARC (SUN Microsystems), Solaris 6, 7, 8, 9 and 10
-   - Linux 2.4, 2.6 and 3.x (IA32/64, AMD/Opteron, Sparc, Alpha)
+   - Linux 2.4, 2.6 and 3.x (IA32/64, AMD/Opteron)
    - RS/6000 (IBM), AIX
    - Intel (IA32), Windows 2003/8, Solaris/x86, BSD UNIXes, Linux
    - CISCO routers, Cisco IOS (basic configurations)
    - HPs XP and EVA storage boxes
    - EMC2 storage boxes
- * Implementing backup and restore solutions (HP Omniback or Data Protector, Amanda, and many others)
+ * Building software packages (including patch bundles) for HP-UX, Solaris and Linux
+ * Implementing backup and restore solutions (HP Data Protector, Bareos, and many others)
  * Developing and/or implementing Security Policies
  * Implementing firewall software according Security Policies (Firewall-I, Open Source solutions)
- * On-site migration of [Make CD-ROM Recovery (mkCDrec)](http://mkcdrec.sourceforge.net) towards [Relax and Recover (Rear)](http://relax-and-recover.org)
- * On-site hands-on and/or implementation of [Relax and Recover (Rear)](http://relax-and-recover.org)
+ * Support Services and Consultancy on [Relax and Recover (Rear)](({{ site.url }}/rear-support/)
