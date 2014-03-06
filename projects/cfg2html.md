@@ -13,7 +13,7 @@ Collects Linux system configuration into a HTML and text file. Config to HTML is
 
 Cfg2html works on Linux, HP-UX, SunSO, AIX...
 
-Come to our presentation at [FOSDEM 2014](https://fosdem.org/2014/schedule/event/cfg2html/) on February 2td 2014 at 10:20.
+The presentation given at [FOSDEM 2014](https://fosdem.org/2014/schedule/event/cfg2html/) on February 2td 2014 is available, but also the [video that was made by the FOSDEM team](http://ftp.heanet.ie/mirrors/fosdem-video/2014/H2215_Ferrer/Sunday/Linux_Configuration_Collector.webm).
 
 See our [GitHub Source development tree](https://github.com/cfg2html/cfg2html) and clone it to your system via:
 
@@ -48,5 +48,6 @@ A simple output of cfg2html looks like:
     --=[ http://www.cfg2html.com ]=---------------------------------------------
     Returncode=1 (see /var/log/cfg2html/witsbebelnx02.err)
 
+If you find problems, bugs and have some bright news ideas please make a new [issue](https://github.com/cfg2html/cfg2html/issues) at  our GitHub project pages.
 
 
