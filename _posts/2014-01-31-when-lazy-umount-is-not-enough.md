@@ -57,13 +57,13 @@ Yes, it is. Let us start the stat daemon manual again with the command:
 
     #-> /usr/sbin/start-statd
 
-And, check it all NFS client processes are running with `ps ax | grep rpc` (you should see `rpc.statd`, `rpcbind` and `rpciod` in the list). Finally, remount the NFS file systems that disappeared during the restart of the NFS client daemons.
+And, check if all NFS client processes are running with `ps ax | grep rpc` (you should see `rpc.statd`, `rpcbind` and `rpciod` in the list). Finally, remount the NFS file systems that disappeared during the restart of the NFS client daemons.
 Do the final test with the `df` command to be 100% sure that there are no stale NFS links around.
 
-By the way, there is a second trick if the above is not enough and that is making an alias of the IP address of the NFS server that is not responding (in out example this is aIP address 10.153.170.31). We make a fake NFS alias with the command:
+By the way, there is a second trick if the above is not enough and that is making an alias of the IP address of the NFS server that is not responding (in our example this is IP address 10.153.170.31). We make a fake NFS alias with the command:
 
     #-> ip a
-    #-> fconfig bond0:fakenfs 10.153.170.31 netmask 255.255.255.255
+    #-> ifconfig bond0:fakenfs 10.153.170.31 netmask 255.255.255.255
     #-> ip a
     10: bond0: <BROADCAST,MULTICAST,MASTER,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP
         link/ether 28:92:4a:31:55:d0 brd ff:ff:ff:ff:ff:ff
