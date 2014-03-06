@@ -26,7 +26,7 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Backup and disaster recovery procedures (installation, setup and configuration)
  * Code writing for Open Source projects, such as
    - [Relax-and-Recover (rear)]({{ site.url }}/projects/rear.html): linux DR Framwork
-   - [Config to HTML (cfg2html)](http://www.cfg2html.com/): linux Configuration Collector
+   - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html.html): linux Configuration Collector
    - [WBEMextras](http://wbemextras.github.io/): HP SIM software installer and configurator for HP-UX systems
    - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html): deploy and run software on many sumultanous systems
    - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution
