@@ -9,11 +9,15 @@ tags: [cfg2html, open source, korn shell script, HP-UX, SunOS, AIX, Linux, IT3 C
 
 [Cfg2html](http://www.cfg2html.com/) is a little utility to collect the necessary system configuration files and system set-up to an ASCII file and HTML file. Simple to use and very helpful in disaster recovery situations.
 
+<iframe width="280" height="210" src="//www.youtube.com/embed/qqBf-VS9Gmk" align="right"><p>cfg2html</p></iframe>
+
 Collects Linux system configuration into a HTML and text file. Config to HTML is the "swiss army knife" for the sysadmins. It was written to get the necessary informations to plan an update, to perform basic trouble shooting or performance analysis. As a bonus cfg2html creates a nice HTML and plain ASCII documentation from Linux System, Cron and At, installed Hardware, installed Software, Filesystems, Dump- and Swap-configuration, LVM, Network Settings, Kernel, System enhancements and Applications, Subsystems.
 
 Cfg2html works on Linux, HP-UX, SunSO, AIX...
 
-The presentation given at [FOSDEM 2014](https://fosdem.org/2014/schedule/event/cfg2html/) on February 2td 2014 is available, but also the [video that was made by the FOSDEM team](http://ftp.heanet.ie/mirrors/fosdem-video/2014/H2215_Ferrer/Sunday/Linux_Configuration_Collector.webm).
+The presentation given at [FOSDEM 2014](https://fosdem.org/2014/schedule/event/cfg2html/) on February 2td 2014 is available.
+
+
 
 See our [GitHub Source development tree](https://github.com/cfg2html/cfg2html) and clone it to your system via:
 
