@@ -8,5 +8,7 @@ tags: [upgrade-ux, open source, linux, HP-UX, Solaris, AIX, BSD, IT3 Consultants
 
 ##  Upgrade-UX project
 
-<img src="{{ site.url }}/images/upgrade-ux.png" alt="upgrade-ux logo">
+<img src="{{ site.url }}/images/upgrade-ux.png" width="71" height="88" border="0" align="left" alt="upgrade-ux logo">
+
+Upgrade-UX was developed to assist in patching and/or updating Unix Operating Systems in a consistent and repeatable way.
 
