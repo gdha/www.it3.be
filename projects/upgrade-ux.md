@@ -12,7 +12,7 @@ tags: [upgrade-ux, open source, linux, HP-UX, Solaris, AIX, BSD, IT3 Consultants
 
 Upgrade-UX is an open source framework developed to assist in patching and/or updating Unix Operating Systems in a consistent and repeatable way. Especially in the industry it is forbidden just to run `yum update` (on Linux) to update your Linux system, therefore, `upgrade-ux` may proof to be a handy tool to guide you through the patching and/or update process as it follows a track you control (evidence gathering, pre/post executing of scripts, logging, and so on).
 
-Upgrade-ux is completely written in Korn Shell which is widely available on all UNIX Operating Systems from Linux, HP-UX, Solaris, AIX, and others. The nice thing about upgrade-ux is that the each OS follows its own track (via a directory tree strcuture) so they do not influence each other.
+Upgrade-ux is completely written in Korn Shell which is widely available on all UNIX Operating Systems from Linux, HP-UX, Solaris, AIX, and others. The nice thing about upgrade-ux is that the each OS follows its own track (via a directory tree structure) so they do not influence each other.
 
 Currently (June 2014), only the HP-UX tree is fully populated and we are starting with the Linux track. People who ever worked with Relax-and-Recover will immediately recognize the internals as it is an exact clone (however, reworked a bit to make it fully Korn Shell aware).
 
