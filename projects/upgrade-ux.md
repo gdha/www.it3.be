@@ -24,7 +24,7 @@ Upgrade-UX has a wide range of features:
  - Is written in standard Korn Shell (which makes it highly portable)
  - Is UNIX Operating System independent as OS specific tasks reside in their own directory structures
  - Is easy extendable with your own scripts
- - The +upgrade-ux+ command leaves a trace in its own log file
+ - The `upgrade-ux` command leaves a trace in its own log file
  - Running in preview or upgrade mode always creates evidence files
  - Has a man page
  - Has user documentation (you are reading it)
