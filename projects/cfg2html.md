@@ -54,4 +54,8 @@ A simple output of cfg2html looks like:
 
 If you find problems, bugs and have some bright news ideas please make a new [issue](https://github.com/cfg2html/cfg2html/issues) at  our GitHub project pages.
 
+We made the HP-UX file software depots available of the recent cfg2html versions at [/projects/cfg2html/hpux/]({{ site.url }}/projects/cfg2html/hpux/)
 
+To install this on HP-UX 11i systems, first download this depot and install as follow:
+
+    # swinstall -s $PWD/cfg2html_C.06.24_20141014.depot CFG2HTML
