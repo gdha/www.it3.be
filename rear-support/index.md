@@ -15,7 +15,7 @@ Rear stands for <strong>Re</strong>lax <strong>a</strong>nd <strong>r</strong>ec
 
 The code is completely free and is published with the GNU Public Licence version 2.
 
-When we said rear is a disaster recovery framework we meant each module is small and has its own specific goal. Rear creates an iso image to boot from in case of disaster and the backup can be stores practically anywhere (NFS, CIFS, USB disks, remote tape devices). Rear is also capable to integrate with commercial backup solutions such as Tivoli, NetBackup, EMC NetWorker and Data Protector.
+When we said rear is a disaster recovery framework we meant each module is small and has its own specific goal. Rear creates an iso image to boot from in case of disaster and the backup can be stores practically anywhere (NFS, CIFS, USB disks, remote tape devices). Rear is also capable to integrate with open source backup solutions such as Bacula, Bareos and also with commercial backup solutions such as Tivoli, NetBackup, EMC NetWorker and Data Protector.
 IT3 Consultants is an official RedHat partner and you will find a web page on rear on their [partner website](http://redhat.force.com/finder/PFPartnerDetail?id=0016000000M8PW4AAN)
 
 We can imagine this may sound a bit overwhelming to you, but we can help you out with the following offerings:
@@ -38,6 +38,7 @@ Above list are paid services and are delivered by IT3 Consultants' author of rea
 ## Relax-and-Recover (Rear) Support Services
 
 * Bug Express Edition: to guarantee a timely delivered bug fix
+* [Single System Software Support contract]({{ site.url }}/rear-support/single_system_sw_support.html)
 * Business Edition: weekdays (GMT+1 timeframe) based support contract (5x8)
 * Enterprise Edition: 7x24 based support contracts
 * Stand-by support services (hourly based, month or year contracts possible too)
