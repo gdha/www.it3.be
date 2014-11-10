@@ -13,6 +13,7 @@ You need `jekyll` to build this web site, therefore, install with the command:
 $ sudo yum install ruby ruby-devel rubygems
 $ sudo gem install jekyll
 $ sudo gem install redcarpet
+$ sudo gem install therubyracer  (required on CentOS 7)
 ```
 
 ### Run Locally
