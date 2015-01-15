@@ -33,6 +33,7 @@ You can now send a test event to HP SIM console via the command:
 Also, check the `/var/opt/sfm/log/sfm.log` log file again; the errors should not be seen anymore. Now login on the HP SIM console and check under the events tab of this system to see if some test events arrived (of type 4).
 
 Related links:
+
 * [WBEMextras home page](http://wbemextras.github.io/)
 * [WBEMextras GitHub source](https://github.com/WBEMextras/WBEMextras)
 
