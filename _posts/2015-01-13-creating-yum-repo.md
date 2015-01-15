@@ -28,10 +28,10 @@ To list the current list of repositories you can use the command:
      * base: mirror.bytemark.co.uk
      * extras: mirror.bytemark.co.uk
      * updates: mirror.bytemark.co.uk
-    repo id                                                       repo name                                                        status
-    base/7/x86_64                                                 CentOS-7 - Base                                                  8,465
-    extras/7/x86_64                                               CentOS-7 - Extras                                                  102
-    updates/7/x86_64                                              CentOS-7 - Updates                                               1,550
+    repo id                                            repo name                                                        status
+    base/7/x86_64                                      CentOS-7 - Base                                                  8,465
+    extras/7/x86_64                                    CentOS-7 - Extras                                                  102
+    updates/7/x86_64                                   CentOS-7 - Updates                                               1,550
     repolist: 10,117
 
 With the command `yum check-update` you can see all the available updates in above mentioned repositories, but what we want is create our own selection of updates and fixes. We want to be controlling what is happening on our systems, right?
@@ -45,11 +45,11 @@ Now you can download the RPMs into this newly created directory (we will *not* i
 
     $ sudo yum update --downloadonly --downloaddir=/var/html/repo-jan-2015
     ...
-    (145/146): selinux-policy-targeted-3.12.1-153.el7_0.13.noarch.rpm                                                    | 3.8 MB  00:00:01
-    (146/146): kernel-3.10.0-123.13.2.el7.x86_64.rpm                                                                     |  29 MB  00:00:14
+    (145/146): selinux-policy-targeted-3.12.1-153.el7_0.13.noarch.rpm                                          | 3.8 MB  00:00:01
+    (146/146): kernel-3.10.0-123.13.2.el7.x86_64.rpm                                                           |  29 MB  00:00:14
     Finishing delta rebuilds of 84 package(s) (87 M)
-    --------------------------------------------------------------------------------------------------------------------------------------------
-    Total                                                                                                       996 kB/s |  96 MB  00:01:38
+    -----------------------------------------------------------------------------------------------------------------------------
+    Total                                                                                             996 kB/s |  96 MB  00:01:38
     exiting because "Download Only" specified
     
 To create a repo we need a tool called `createrepo`. If it is not present install it via the command:
@@ -86,17 +86,17 @@ At this point your new created repo *Updates-Jan-2015* should be available for l
 
     $ sudo yum repolist
     Loaded plugins: fastestmirror, langpacks
-    Updates-Jan-2015                                                                                              | 2.9 kB  00:00:00
-    Updates-Jan-2015/primary_db                                                                                   | 466 kB  00:00:00
+    Updates-Jan-2015                                                                                   | 2.9 kB  00:00:00
+    Updates-Jan-2015/primary_db                                                                        | 466 kB  00:00:00
     Loading mirror speeds from cached hostfile
      * base: mirror.bytemark.co.uk
      * extras: mirror.bytemark.co.uk
      * updates: mirror.bytemark.co.uk
-    repo id                                          repo name                                                                     status
-    Updates-Jan-2015                                 CentOS 7 - x86_64 - Released Updates Jan 2015                                   146
-    base/7/x86_64                                    CentOS-7 - Base                                                               8,465
-    extras/7/x86_64                                  CentOS-7 - Extras                                                               103
-    updates/7/x86_64                                 CentOS-7 - Updates                                                            1,568
+    repo id                                 repo name                                                                     status
+    Updates-Jan-2015                        CentOS 7 - x86_64 - Released Updates Jan 2015                                   146
+    base/7/x86_64                           CentOS-7 - Base                                                               8,465
+    extras/7/x86_64                         CentOS-7 - Extras                                                               103
+    updates/7/x86_64                        CentOS-7 - Updates                                                            1,568
     repolist: 10,282
     
 You can list the content of the repo as following:
@@ -108,8 +108,8 @@ You can list the content of the repo as following:
      * extras: mirror.bytemark.co.uk
      * updates: mirror.bytemark.co.uk
     Available Packages
-    NetworkManager.x86_64                                   1:0.9.9.1-29.git20140326.4dba720.el7_0                       Updates-Jan-2015
-    NetworkManager-glib.x86_64                              1:0.9.9.1-29.git20140326.4dba720.el7_0                       Updates-Jan-2015
+    NetworkManager.x86_64                   1:0.9.9.1-29.git20140326.4dba720.el7_0                       Updates-Jan-2015
+    NetworkManager-glib.x86_64              1:0.9.9.1-29.git20140326.4dba720.el7_0                       Updates-Jan-2015
     ....
 
 
@@ -123,6 +123,8 @@ This was a high level explanation of how you can create your own repositories, h
 A small word of advise: before applying patch bundles (or doing updates) make a disaster recover snapshot with your tool of preference, e.g. relax-and-recover (rear).
 
 Related links:
+
 * [Create a Local Yum Repository](http://dotancohen.com/howto/yum_repo.html)
 * [Source of httpserve.py](https://gist.github.com/ThomasChiroux/3786940)
 * [Relax-and-Recover (rear)](http://relax-and-recover.org/)
+
