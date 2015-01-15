@@ -43,6 +43,7 @@ Ok, we have now the date - using `touch` to modify the date:
 The `swverify` command is now very happy with the correct date.
 
 External Links:
+
 * [General description on Unix/Epoch time](http://en.wikipedia.org/wiki/Unix_epoch)
 * [Several date commands and script goodies](http://www.unix.com/answers-to-frequently-asked-questions/13785-yesterdays-date-date-arithmetic.html)
 
