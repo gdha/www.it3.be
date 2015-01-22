@@ -35,6 +35,17 @@ We can imagine this may sound a bit overwhelming to you, but we can help you out
 
 Above list are paid services and are delivered by IT3 Consultants' author of rear (Gratien D'haese). Do not hesitate to contact us for more information about our services and/or prices.
 
+## Relax-and-Recover (Rear) Support Services Poll
+
+We are interested in which kind of support contract around REAR you would consider to subscribe to? Please click on one of the three options below:
+
+<ul>
+    <li><a href="http://www.gfxpoll.nl/pollvote/222738.html" target="_newWin">Limited Support Contract</a></li>
+    <li><a href="http://www.gfxpoll.nl/pollvote/222739.html" target="_newWin">Business Hours Support Contract</a></li>
+    <li><a href="http://www.gfxpoll.nl/pollvote/222740.html" target="_newWin">24x7 Support Contract</a></li>
+</ul>
+<br /><br /><small>Tussenstand:</small><br /><br /><img src="http://www.gfxpoll.nl/pollgfx/48334.png"><br /><br />
+
 ## Relax-and-Recover (Rear) Support Services
 
 * Bug Express Edition: to guarantee a timely delivered bug fix
