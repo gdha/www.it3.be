@@ -28,10 +28,10 @@ The following list of consultancy tasks are offered by IT3 Consultants:
    - [Relax-and-Recover (rear)]({{ site.url }}/projects/rear.html): Linux Disaster Recovery framework
    - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux.html): Open Source update and/or patching framework
    - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html.html): linux Configuration Collector
-   - [WBEMextras](http://wbemextras.github.io/): HP SIM software installer and configurator for HP-UX systems
+   - [WBEMextras]({{ site.url }}/projects/wbemextras.html): HP SIM software installer and configurator for HP-UX systems
    - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html): deploy and run software on many simultanous systems
-   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution
- * [Support Services for Relax-and-Recover (rear)]({{ site.url }}/rear-support/)
+   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution (obsolete - use rear instead)
+ * [Software Support Services for Relax-and-Recover (rear)]({{ site.url }}/rear-support/)
 
 ### Where is the company located?
 

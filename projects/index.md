@@ -34,7 +34,9 @@ On Open Source projects we give more details.
 
 [adhocr]({{ site.url }}/projects/adhocr.html) is a little `expect` utility to parallelize execution of commands on lots of systems.
 
+## Wbemextas
 
+[wbemextras]({{ site.url }}/projects/wbemextras.html) contains some scripts to assist in HP SIM installation and configuration on HP-UX
 
 ## Make CD-ROM Recovery (mkcdrec)
 
