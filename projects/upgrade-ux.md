@@ -41,6 +41,7 @@ on Github:
  - [Upgrade-UX website](http://www.it3.be/projects/upgrade-ux.html)
  - [Github project](http://github.com/gdha/upgrade-ux)
  - [Upgrade-ux User Guide](http://www.it3.be/projects/upgrade-ux-user-guide.html)
+ - [Lighning-talk FOSDEM 2015](http://mirror.as35701.net/video.fosdem.org//2015/lightning_talks/upgrade_ux.mp4)
 
 In case you have questions, ideas or feedback about this document, you
 can contact the development team at: gratien.dhaese at gmail.com.
