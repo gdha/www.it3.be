@@ -10,7 +10,8 @@ to deploy on the web.
 You need `jekyll` to build this web site, therefore, install with the command:
 
 ```shell
-$ sudo yum group install "C Development Tools and Libraries"
+$ sudo yum group install "C Development Tools and Libraries"   (Fedora)
+$ sudo yum group install "Development Tools"   (CentOS, RHEL)
 $ sudo yum install ruby ruby-devel rubygems
 $ sudo gem install jekyll
 $ sudo gem install redcarpet
