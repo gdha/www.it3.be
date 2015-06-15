@@ -10,9 +10,9 @@ author: gratien
 ### Contact IT3 Consultants bvba
 <strong>Address:</strong>
 
-IT3 Consultants bvba</br>
-Vennestraat 15</br>
-B-2560 Nijlen</br>
+IT3 Consultants bvba<br>
+Vennestraat 15<br>
+B-2560 Nijlen<br>
 Belgium
 
 <strong>Owner</strong>: Gratien D'haese
