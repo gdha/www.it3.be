@@ -5,10 +5,12 @@ description: An overview of the Company and Services
 author: gratien
 ---
 
-## IT3 Consultants Company page
+## IT3 Consultants bvba
 
 [How we can help you get what you want]({{ site.url }}/company/howwecanhelp.html).
 What do we offer as a company?
+
+### [About the company]({{ site.url }}/company/about_company.html)
 
 ### Consultancy Offerings
 
@@ -20,7 +22,6 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Assist the customer in fine-tune mission critical servers
  * Assist the customer in finding bottlenecks in his network (LAN, WAN, Intranet, Internet)
  * Consultancy work around UNIX and Windows servers (including security)
- * [Linux support services]({{ site.url }}/company/linux-support.html)
  * Cluster setup and configuration (HP-UX/Linux ServiceGuard and Veritas Cluster Server)
  * Business Continuity procedures (installation, setup and configuration)
  * Backup and disaster recovery procedures (installation, setup and configuration)
@@ -30,9 +31,10 @@ The following list of consultancy tasks are offered by IT3 Consultants:
    - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html.html): linux Configuration Collector
    - [WBEMextras]({{ site.url }}/projects/wbemextras.html): HP SIM software installer and configurator for HP-UX systems
    - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html): deploy and run software on many simultanous systems
-   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution (obsolete - use rear instead)
+   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution
+
+### Service Offerings
+
  * [Software Support Services for Relax-and-Recover (rear)]({{ site.url }}/rear-support/)
+ * [Linux support services]({{ site.url }}/company/linux-support.html)
 
-### Where is the company located?
-
-<a href="http://goo.gl/maps/HZ3hL" target="_blank">View Map in separate window</a>
