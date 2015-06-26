@@ -35,4 +35,5 @@ If you need someone to work with you for 3-6 months, we can help you run your co
  * Implementing backup and restore solutions (HP Data Protector, Bareos, and many others)
  * Developing and/or implementing Security Policies
  * Implementing firewall software according Security Policies (Firewall-I, Open Source solutions)
- * Support Services and Consultancy on [Relax and Recover (Rear)](({{ site.url }}/rear-support/)
+ * Support Services and Consultancy on [Relax and Recover (Rear)]({{ site.url }}/rear-support/)
+
