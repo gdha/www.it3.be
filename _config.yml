@@ -1,4 +1,5 @@
-pygments: true
+#pygments: true
+highlighter: true
 exclude: [README.md]
 
 url: http://www.it3.be
@@ -9,7 +10,7 @@ permalink: /:year/:month/:day/:title
 
 disqus_short_name: it3consultants
 
-analytics_code: 
+analytics_code: UA-3406473-1
 
 share_twitter: true
 share_google: true
