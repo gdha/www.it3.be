@@ -111,7 +111,6 @@ The *No space left on device* error means we have reached the limit of defining 
     
 We have done this kind of tests on lots of Operating Systems - overview:
 
-|====
 | OS Vendor      | OS Release    | File System type   | ACL limit
 |----------------|---------------|--------------------|----------
 | HP-UX          | 11.11         | vxfs               | 17
@@ -126,8 +125,6 @@ We have done this kind of tests on lots of Operating Systems - overview:
 | SLES           | 11 SP2        | ext3               | 508
 | SLES           | 12            | btrfs              | 2026
 | Ubuntu         | 15.04         | ext4               | 508
-|----------------|---------------|--------------------|----------
-|====
 
 
 
