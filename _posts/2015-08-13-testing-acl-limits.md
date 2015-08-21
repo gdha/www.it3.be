@@ -90,7 +90,7 @@ To calculate the amount of ACLs on the `testfile` you need to execute the follow
     
 To find the ACL bounderies you need to create a bit more users and groups, 500, 1000, or 2000 that is up to you. We will try 2000 to start with (will skip most of the output):
 
-    # ./test-acl-bounderies.sh 1000
+    # ./test-acl-bounderies.sh 2000
     ....
       -> Account user2000 has been created successfully:
     Last password change                                    : Aug 13, 2015
@@ -143,5 +143,5 @@ Related links:
 
 * [Access Control List](https://en.wikipedia.org/wiki/Access_control_list)
 * [Source of test-acl-bounderies.sh](https://github.com/gdha/mismas/blob/master/test-acl-bounderies.sh)
-* [masmas issues](https://github.com/gdha/mismas/issues)
+* [mismas issues](https://github.com/gdha/mismas/issues)
 
