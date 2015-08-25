@@ -14,7 +14,9 @@ Making a secure (encrypted) backup to a cloud storage provider sounds very compl
 
 First of all, you need to install and [generate GnuPG cryptographic keys](/2014/02/14/gnupg-key-generation/).
 
-Installing duply and duplicity you can do the following:
+Secondly, exchange the Secure Shell public key between the client and the server.
+
+Installing duply and duplicity you can do the following (on Centos/Fedora/RHEL):
 
     # yum install duplicity
     Dependencies Resolved
@@ -50,6 +52,11 @@ Installing duply and duplicity you can do the following:
     =======================================================================================
     Install  1 Package
     
+On Ubuntu you need to install:
+
+     # apt-get install duply
+     # apt-get install python-paramiko
+     
 
 Now that we have the necessary software installed we can create an empty profile (e.g. *mycloud*) using the following command:
 
@@ -60,6 +67,8 @@ This creates a template profile that you still need to edit and configure accord
     $ vi ~/.duply/mycloud/conf
 
 You need to uncomment and add your key-id into the variable `GPG_KEY` and the same for your *secret* passhrase (into variable `GPG_PW`). You also need to define the `SOURCE` (from which you want a backup) and `TARGET` directory path (where you store the backup).
+
+The `GPG_KEY` can easily be found with the command `gpg --list-keys`.
 
 To define the `TARGET` variable you need to follow a certain syntax (the profile file *mycloud/conf* explains it well).
 
@@ -134,3 +143,5 @@ If above test was successful you can now backup to a remote (cloud storage based
     $ duply mycloud backup
 
 There might be one interesting item to mention is the *exclude* file list if you want to make a full backup. `duplicity` will hang if we do not exclude the file systems `/proc` and `/sys`. To avoid this just add these two file systems to the file `~/.duply/<profile>/exclude`
+
+*Last Update: 25 August 2015 (added some minor clarifications and the Ubuntu install part)*
