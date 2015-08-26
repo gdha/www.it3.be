@@ -14,8 +14,6 @@ Making a secure (encrypted) backup to a cloud storage provider sounds very compl
 
 First of all, you need to install and [generate GnuPG cryptographic keys](/2014/02/14/gnupg-key-generation/).
 
-Secondly, exchange the Secure Shell public key between the client and the server.
-
 Installing duply and duplicity you can do the following (on Centos/Fedora/RHEL):
 
     # yum install duplicity
@@ -144,4 +142,4 @@ If above test was successful you can now backup to a remote (cloud storage based
 
 There might be one interesting item to mention is the *exclude* file list if you want to make a full backup. `duplicity` will hang if we do not exclude the file systems `/proc` and `/sys`. To avoid this just add these two file systems to the file `~/.duply/<profile>/exclude`
 
-*Last Update: 25 August 2015 (added some minor clarifications and the Ubuntu install part)*
+*Last Update: 26 August 2015 (added some minor clarifications and the Ubuntu install part)*
