@@ -12,7 +12,7 @@ author: gratien
 
 In previous blog posts we described how to make a [secure (encrypted) backup to a cloud storage provider using duply (with duplicity)](/2014/02/25/setting-up-duply/) and how to [generate GnuPG cryptographic keys](/2014/02/14/gnupg-key-generation/).
 
-We can use duply (or duplicity) with [relax-and-recover (rear)]({ site.url }/projects/rear.html) to take care of full backup of the GNU/Linux system. Therefore, duplicity is responsible for backup and restore and rear is just taking care of the rescue image and doing the restore of the disk partitions, including creating volume groups and file systems. After that, rear hands over the task to duplicity to do the restore. And, finally, when all has been restored (read the OS part) take care of making the disk bootable using grub or another boot loader.
+We can use duply (or duplicity) with [relax-and-recover (rear)](/projects/rear.html) to take care of full backup of the GNU/Linux system. Therefore, duplicity is responsible for backup and restore and rear is just taking care of the rescue image and doing the restore of the disk partitions, including creating volume groups and file systems. After that, rear hands over the task to duplicity to do the restore. And, finally, when all has been restored (read the OS part) take care of making the disk bootable using grub or another boot loader.
 
 The way duply works we first have to setup a duply profile as user root, which defines the backup/restore path towards the cloud infrastructure, e.g.
 
