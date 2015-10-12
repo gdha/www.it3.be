@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Convert cluste-wider disks to persistent disks on HP-UX 11.31
+title: Convert cluster-wide disks to persistent disks on HP-UX 11.31
 description:
 tags: [terminal, HP-UX, Volume group, LVM, tutorial, howto, it3 consultants]
 author: gratien
