@@ -8,7 +8,7 @@ author: gratien
 
 <strong>Internal disk was recognized as a multipath device and as a result no backup was created by rear</strong>
 
-When running rear it is always important to inspect the rear.log file to see if nothing went wrong. In one of the cases we noticed that the backup time and size was almost zero, where we expected a few GBytes of backup. That was strange as you can see:
+When running `rear mkbackup` it is always important to inspect the rear.log file to see if nothing went wrong. In one of the cases we noticed that the backup time and size was almost zero, where we expected a few GBytes of backup. That was strange as you can see:
 
     2015-11-09 19:04:58 Creating tar archive '/tmp/rear.lvktayoP8xrcgaK/outputfs/SystemA/backup.tar.gz'
     2015-11-09 19:05:01 Archived 0 MiB in 2 seconds [avg 62 KiB/sec]
@@ -132,7 +132,13 @@ Make a copy of the ramdisk too before rebuilding:
     68390 blocks
     
 In case it would have been a RHEL system then we should use `dracut` (in stead of `mkinitrd`) to rebuild the kernel. However, the principle stays the same.
-After the kernel has been rebuild you still need to reboot and afterwards inspect the system. If all seems fine you can re-run `rear` again which now should be able to create a successful archive.
+
+After the kernel has been rebuild you still need to verify the device names used in `/etc/fstab`,  `grub.conf` or `elilo.conf` need to be modified to the ones shown during the `mkinitrd` command run.
+
+Reboot the system when it is convinient (don't wait too long). However, it is important to inspect the system after the reboot.
+If something went wrong you probably be thrown into single user mode where you get the chance to fix whatever went wrong.
+
+At last you can re-run `rear mkbackup` again which now should be able to create a successful archive.
 
 Gratien
 
