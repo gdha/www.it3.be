@@ -32,8 +32,20 @@ We can imagine this may sound a bit overwhelming to you, but we can help you out
 * migrate disaster recovery solutions based on older or legacy DR methods towards rear
 * help you writing a disaster recovery manuals based on rear of course
 * give training sessions to your operational teams
+* can be delivered via teleconference, on-site, and any means agreed
 
 Above list are paid services and are delivered by IT3 Consultants' author of rear (Gratien D'haese). Do not hesitate to contact us for more information about our services and/or prices.
+
+## Relax-and-Recover (Rear) Rent me for a day Service
+
+* Rent me for a day means we work one day (8 hours) on issues of your choice
+* Can be writing new code
+* Debugging existing problems
+* Improving existing code
+* Writing new documentation
+* Updating existing documentation
+* Everything is done remote from our office of IT3 Consultants
+* Price is 500 Euro's (without VAT)
 
 ## Relax-and-Recover (Rear) Support Services Poll
 
@@ -48,13 +60,10 @@ We are interested in which kind of support contract around REAR you would consid
 
 ## Relax-and-Recover (Rear) Support Services
 
-* Bug Express Edition: to guarantee a timely delivered bug fix
 * [Single System Software Support contract]({{ site.url }}/rear-support/single_system_sw_support.html)
-* Business Edition: weekdays (GMT+1 timeframe) based support contract (5x8)
-* Enterprise Edition: 7x24 based support contracts
-* Stand-by support services (hourly based, month or year contracts possible too)
-* Software support contracts for older versions of rear 
-* Software maintenance contracts for smooth upgrades (including test cases)
+* Business Edition: weekdays (GMT+1 timeframe) based support contract (5x8) - price depends on amount of systems
+* Enterprise Edition: 7x24 based support contracts - price depends on amount of systems
+* Limited Support Contract: Guaranteed software support via mail, telephone independent of the amount of systems (weekdays only)
 
 For more information or prices please contact us.
 
