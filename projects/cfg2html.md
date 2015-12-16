@@ -59,3 +59,6 @@ We made the HP-UX file software depots available of the recent cfg2html versions
 To install this on HP-UX 11i systems, first download this depot and install as follow:
 
     # swinstall -s $PWD/cfg2html_C.06.24_20141014.depot CFG2HTML
+
+The cfg2html packages for Linux are daily build on OpenSuSe Build Service - select your Linux versions and go deeper in the *noarch* subdirectory. See [the daily builds](http://download.opensuse.org/repositories/home:/gdha/)
+
