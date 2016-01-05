@@ -60,10 +60,10 @@ We are interested in which kind of support contract around REAR you would consid
 
 ## Relax-and-Recover (Rear) Support Services
 
-* [Single System Software Support contract]({{ site.url }}/rear-support/single_system_sw_support.html)
+* Rear Consultancy (per hour or per day) - on-site or remote
+* [Limited Rear Software Support contract]({{ site.url }}/rear-support/limited_rear_sw_support.html)
 * Business Edition: weekdays (GMT+1 timeframe) based support contract (5x8) - price depends on amount of systems
 * Enterprise Edition: 7x24 based support contracts - price depends on amount of systems
-* Limited Support Contract: Guaranteed software support via mail, telephone independent of the amount of systems (weekdays only)
 
 For more information or prices please contact us.
 
@@ -96,4 +96,4 @@ We organize on request rear workshops in our offices or at customer's location. 
 -	Wrap up and Frequently Asked Questions
 
 
-On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html)
+On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html) and [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653)
