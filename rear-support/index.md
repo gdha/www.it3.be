@@ -32,7 +32,7 @@ We can imagine this may sound a bit overwhelming to you, but we can help you out
 * migrate disaster recovery solutions based on older or legacy DR methods towards rear
 * help you writing a disaster recovery manuals based on rear of course
 * give training sessions to your operational teams
-* can be delivered via teleconference, on-site, and any means agreed
+* can be delivered via teleconference, on-site, or any other means agreed upon
 
 Above list are paid services and are delivered by IT3 Consultants' author of rear (Gratien D'haese). Do not hesitate to contact us for more information about our services and/or prices.
 
@@ -96,4 +96,4 @@ We organize on request rear workshops in our offices or at customer's location. 
 -	Wrap up and Frequently Asked Questions
 
 
-On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html) and [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653)
+On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html) and [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653). The next free workshop will be organized at the [Open Source Backup Conference, Cologne](http://osbconf.org/workshops/) on 26 or 27 September 2016.
