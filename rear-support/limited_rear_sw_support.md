@@ -18,10 +18,10 @@ Limited <strong>Re</strong>lax <strong>a</strong>nd <strong>r</strong>ecover (re
 * Customers submit an issue at [GitHub issues page of rear](https://github.com/rear/rear/issues)
 * Customers may submit an issue any time of the day (24 hours). However, if GitHub is down for maintenance (or unavailable) please be patient and try to submit later again
 * Submit long log files is possible via [Gists](https://help.github.com/articles/creating-gists/), but submit the link to it in the issue of your request
-* We will commence work on resolving the deficiency within two (2) days of notification and will engage staff during business hours until an acceptable resolution is achieved (legal holidays and week-ends do not count)
+* We will commence work on resolving the deficiency within three (3) days of notification and will engage staff during business hours until an acceptable resolution is achieved (legal holidays and week-ends do not count)
 * Limited Rear Software Support contracts do not use live (Skype) Phone calls or private e-mail conversations, only GitHub conversations are used (as we get an automated notification from GitHub)
-* Customers may prepare [pull requests](https://help.github.com/articles/using-pull-requests/) (we will inspect and give you feedback within 24 hours)
-* Customers may submit unlimited number of issues during the period of the contract
+* Customers may prepare [pull requests](https://help.github.com/articles/using-pull-requests/) (we will code review and give you feedback)
+* Customers may submit a few issues during the period of the contract.
 
 Price for one (1) Limited Rear Software Support contract is 100,00 Euro (without taxes, VAT)
 
