@@ -14,7 +14,7 @@ Upgrade-UX is an open source framework developed to assist in patching and/or up
 
 Upgrade-ux is completely written in Korn Shell which is widely available on all UNIX Operating Systems from Linux, HP-UX, Solaris, AIX, and others. The nice thing about upgrade-ux is that the each OS follows its own track (via a directory tree structure) so they do not influence each other.
 
-Currently (June 2014), only the HP-UX tree is fully populated and we are starting with the Linux track. People who ever worked with Relax-and-Recover will immediately recognize the internals as it is an exact clone (however, reworked a bit to make it fully Korn Shell aware).
+Currently, only the HP-UX tree is fully populated and we are starting with the Linux track. People who ever worked with Relax-and-Recover will immediately recognize the internals as it is an exact clone (however, reworked a bit to make it fully Korn Shell aware).
 
 Upgrade-UX has a wide range of features:
 
@@ -34,6 +34,7 @@ Upgrade-UX has a wide range of features:
  - Can trigger remote alarms, syslog, monitors,...
  - Can do a basis health check of your system - it is all up to you
  - Has excellent support by its author
+ - IT3 Consultants can help you with your internal upgrade projects (need a PO)
 
 The support and development of the Upgrade-UX project takes place
 on Github:
@@ -41,7 +42,7 @@ on Github:
  - [Upgrade-UX website](http://www.it3.be/projects/upgrade-ux.html)
  - [Github project](http://github.com/gdha/upgrade-ux)
  - [Upgrade-ux User Guide](http://www.it3.be/projects/upgrade-ux-user-guide.html)
- - [Lighning-talk FOSDEM 2015](http://mirror.as35701.net/video.fosdem.org//2015/lightning_talks/upgrade_ux.mp4)
+ - [Lighning-talk FOSDEM 2015](http://mirror.as35701.net/video.fosdem.org/2015/lightning_talks/upgrade_ux.mp4)
 
 In case you have questions, ideas or feedback about this document, you
 can contact the development team at: gratien.dhaese at gmail.com.
