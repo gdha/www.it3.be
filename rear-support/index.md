@@ -83,7 +83,7 @@ To make you life easy we have foreseen the following packs:
 
 ## Relax-and-Recover (Rear) Support Services
 
-We aware that as a pre-requisite for a Rear Support Contract is a valid rear software subscription is needed.
+Be aware that you need a valid rear software subscription for each rear support contract as well.
 
 * Rear Consultancy (per hour or per day) - on-site or remote
 * [Limited Rear Software Support contract]({{ site.url }}/rear-support/limited_rear_sw_support.html)
