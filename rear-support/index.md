@@ -62,17 +62,18 @@ We are interested in which kind of support contract around REAR you would consid
 
 We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like rear and want us to keep up doing the good work then we would appreciate it that you take a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
 
-To make you life easy we have foreseen the following packs:
+To make you life easy we have foreseen the following options:
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="8GBJ95LN5VMRU">
+<input type="hidden" name="hosted_button_id" value="Q862TMYZQAMDG">
 <table>
-<tr><td><input type="hidden" name="on0" value="Rear SubScriptions">Rear SubScriptions</td></tr><tr><td><select name="os0">
-	<option value="REAR-5">REAR-5 €290,00 EUR</option>
-	<option value="REAR-10">REAR-10 €400,00 EUR</option>
-	<option value="REAR-100">REAR-100 €3 000,00 EUR</option>
-	<option value="REAR-1000">REAR-1000 €20 000,00 EUR</option>
+<tr><td><input type="hidden" name="on0" value="Rear Subscription">Rear Subscription</td></tr><tr><td><select name="os0">
+	<option value="REAR-1">REAR-1 €30,00 EUR</option>
+	<option value="REAR-5">REAR-5 €128,00 EUR</option>
+	<option value="REAR-10">REAR-10 €225,00 EUR</option>
+	<option value="REAR-100">REAR-100 €1 500,00 EUR</option>
+	<option value="REAR-1000">REAR-1000 €9 000,00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -83,14 +84,34 @@ To make you life easy we have foreseen the following packs:
 
 ## Relax-and-Recover (Rear) Support Services
 
-Be aware that you need a valid rear software subscription for each rear support contract as well.
+Be aware that each rear support contract includes a rear subscription, so no need to buy a seperate rear subscription.
 
 * Rear Consultancy (per hour or per day) - on-site or remote
-* [Limited Rear Software Support contract]({{ site.url }}/rear-support/limited_rear_sw_support.html)
-* Business Edition: weekdays (GMT+1 timeframe) based support contract (5x8) - price depends on amount of systems
-* Enterprise Edition: 7x24 based support contracts - price depends on amount of systems
+* [Limited Rear Support contract]({{ site.url }}/rear-support/limited_rear_sw_support.html)
+* Standard Rear Support Contract: within 2 business days
+* Advanced Rear Support Contract: next business day
+* Business Rear Support Contract: weekdays (GMT+1 timeframe) based support contract (5x8)
+* Enterprise Rear Support Contract: 7x24 based support contracts
 
 For more information or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf).
+
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="HZBDS4U5F6QY6">
+<table>
+<tr><td><input type="hidden" name="on0" value="Rear Support Contract">Rear Support Contract</td></tr><tr><td><select name="os0">
+	<option value="Limited (+REAR-1)">Limited (+REAR-1) €100,00 EUR</option>
+	<option value="Standard (+REAR-5)">Standard (+REAR-5) €400,00 EUR</option>
+	<option value="Advanced (+REAR-10)">Advanced (+REAR-10) €750,00 EUR</option>
+	<option value="Business (+REAR-100)">Business (+REAR-100) €6 000,00 EUR</option>
+	<option value="Enterprise (+REAR-1000)">Enterprise (+REAR-1000) €30 000,00 EUR</option>
+</select> </td></tr>
+</table>
+<input type="hidden" name="currency_code" value="EUR">
+<input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 
 ## Free Rear Support Services
 
