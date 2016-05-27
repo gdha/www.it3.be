@@ -60,7 +60,7 @@ We are interested in which kind of support contract around REAR you would consid
 
 ## Relax-and-Recover (Rear) Software Subscriptions
 
-We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like rear and want us to keep up doing the good work then we would appreciate it that you take a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
+We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like rear and want us to keep up doing the good work then we would appreciate you go for a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
 
 To make you life easy we have foreseen the following options:
 
@@ -87,13 +87,13 @@ To make you life easy we have foreseen the following options:
 Be aware that each rear support contract includes a rear subscription, so no need to buy a seperate rear subscription.
 
 * Rear Consultancy (per hour or per day) - on-site or remote
-* [Limited Rear Support contract]({{ site.url }}/rear-support/limited_rear_sw_support.html)
-* Standard Rear Support Contract: within 2 business days
-* Advanced Rear Support Contract: next business day
+* [Limited Rear Support Contract]({{ site.url }}/rear-support/limited_rear_sw_support.html): within 3 business days
+* [Standard Rear Support Contract]({{ site.url }}/rear-support/standard_rear_sw_support.html): within 2 business days
+* [Advanced Rear Support Contract]({{ site.url }}/rear-support/advanced_rear_sw_support.html): next business day
 * Business Rear Support Contract: weekdays (GMT+1 timeframe) based support contract (5x8)
 * Enterprise Rear Support Contract: 7x24 based support contracts
 
-For more information or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf).
+For more information or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf). If you feel the need to talk to an human or want more information about our company then go to our page ["about the company"]({{ site.url }}/company/about_company.html)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
@@ -112,6 +112,7 @@ For more information or prices please [see the rear support services PDF file]({
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
+We will mail you an invoice which acts as a proof for a valid Rear Support contract.
 
 ## Free Rear Support Services
 

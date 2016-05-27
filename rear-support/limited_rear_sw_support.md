@@ -13,7 +13,8 @@ tags: [rear, relax and recover, support, software support contract, linux disast
 <img src="{{ site.url }}/images/logo/rear_logo_100.png" width="51" height="58" border="0" align="left" alt="Rear logo" />
 Limited <strong>Re</strong>lax <strong>a</strong>nd <strong>r</strong>ecover (rear) Software Support contract is a software support contract for Linux systems. It is the simplest and easiest way to buy support from IT3 Consultants and it foresees in the following:
 
-* A rear software subscription is mandatory
+
+* A rear software subscription is included (REAR-1) - one single client using rear
 * Software contract is valid for <b>one (1) year</b> starting on the day the support fees are collected
 * Customers should use their [GitHub account](https://help.github.com/articles/signing-up-for-a-new-github-account/) to log an issue
 * Customers submit an issue at [GitHub issues page of rear](https://github.com/rear/rear/issues)
@@ -26,12 +27,4 @@ Limited <strong>Re</strong>lax <strong>a</strong>nd <strong>r</strong>ecover (re
 
 Price for one (1) Limited Rear Software Support contract is 100,00 Euro (without taxes, VAT)
 
-## More Relax-and-Recover (Rear) Support Services
-
-* Rear Consultancy (per hour or per day) - on-site or remote
-* [Limited Rear Software Support contract]({{ site.url }}/rear-support/limited_rear_sw_support.html)
-* Business Edition: weekdays (GMT+1 timeframe) based support contract (5x8)
-* Enterprise Edition: 7x24 based support contracts
-* Software support contracts for <strong>older versions of rear</strong>
-
-For more information or prices please contact us.
+For more information please contact us.
