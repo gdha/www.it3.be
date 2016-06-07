@@ -13,7 +13,7 @@ Disasters do happen, big or small, so we better be prepared before these happen.
 
 Commercial Operating Systems ship tools to help you prepare or create images for several years already. However, Linux still lacks a good standard tool delivered with the core system tools (besides tar) to assist with creating a disaster recovery images. As you can image a disaster recovery (DR) exercise is more then just restoring a plain backup.
 
-Rear is a modular disaster recovery engine completely written in bash and released under GPL v2 license. Rear can store the details about your systems on hard disks (network, USB, SAN,...) or network (PXE, NFS, CIFS,...) including the complete backup. It also creates a bootable image which you need to recreate your system from scratch. Furthermore, thanks to the modular concept, we can integrate rear with foreign backup solutions (commercial or not) to do the backup and restore part which makes rear very scalable in big enterprises.
+Rear is a modular disaster recovery engine completely written in bash and released under GPL v3 license. Rear can store the details about your systems on hard disks (network, USB, SAN,...) or network (PXE, NFS, CIFS,...) including the complete backup. It also creates a bootable image which you need to recreate your system from scratch. Furthermore, thanks to the modular concept, we can integrate rear with foreign backup solutions (commercial or not) to do the backup and restore part which makes rear very scalable in big enterprises.
 
 If you are lost or seek for help to setup rear or to add new features into rear we can give you (paid) [rear support offerings]({{ site.url }}/rear-support/)
 
