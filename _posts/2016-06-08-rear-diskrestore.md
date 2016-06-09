@@ -84,6 +84,8 @@ running the script as root and wiping out your disk.
 The output is meant for debugging purposes only (so you can see what a recover would execute to recreate your boot disk layout). Or, in case you are completely lost you can [open an issue](https://github.com/rear/rear/issues).
 But, if you expect an answer (on the diskrestore output) a [rear subscription, rear support contract or donation is required](http://relax-and-recover.org/support/sponsors).
 
+Happy coding - Gratien
+
 References:
 
 * [Source of make_rear_diskrestore_script.sh](https://github.com/gdha/mismas/blob/master/make_rear_diskrestore_script.sh)
