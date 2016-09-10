@@ -36,17 +36,6 @@ We can imagine this may sound a bit overwhelming to you, but we can help you out
 
 Above list are paid services and are delivered by IT3 Consultants' author of rear (Gratien D'haese). Do not hesitate to contact us for more information about our services and/or prices.
 
-## Relax-and-Recover (Rear) Rent me for a day Service
-
-* Rent me for a day means we work one day (8 hours) on issues of your choice
-* Can be writing new code
-* Debugging existing problems
-* Improving existing code
-* Writing new documentation
-* Updating existing documentation
-* Everything is done remote from our office of IT3 Consultants
-* Price is 500 Euro's (without VAT)
-
 ## Relax-and-Recover (Rear) Support Services Poll
 
 We are interested in which kind of support contract around REAR you would consider to subscribe to? Please click on one of the three options below:
