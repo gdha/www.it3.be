@@ -58,11 +58,12 @@ To make you life easy we have foreseen the following options:
 <input type="hidden" name="hosted_button_id" value="Q862TMYZQAMDG">
 <table>
 <tr><td><input type="hidden" name="on0" value="Rear Subscription">Rear Subscription</td></tr><tr><td><select name="os0">
-	<option value="REAR-1">REAR-1 €30,00 EUR</option>
-	<option value="REAR-5">REAR-5 €128,00 EUR</option>
-	<option value="REAR-10">REAR-10 €225,00 EUR</option>
-	<option value="REAR-100">REAR-100 €1 500,00 EUR</option>
-	<option value="REAR-1000">REAR-1000 €9 000,00 EUR</option>
+	<option value="Limited">Limited €250,00 EUR</option>
+	<option value="Standard">Standard €500,00 EUR</option>
+	<option value="Advanced">Advanced €1 000,00 EUR</option>
+	<option value="Business">Business €1 500,00 EUR</option>
+	<option value="Enterprise">Enterprise €3 000,00 EUR</option>
+	<option value="Unlimited">Unlimited €6 000,00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -76,24 +77,26 @@ To make you life easy we have foreseen the following options:
 Be aware that each rear support contract includes a rear subscription, so no need to buy a seperate rear subscription.
 
 * Rear Consultancy (per hour or per day) - on-site or remote
-* [Limited Rear Support Contract]({{ site.url }}/rear-support/limited_rear_sw_support.html): within 3 business days
-* [Standard Rear Support Contract]({{ site.url }}/rear-support/standard_rear_sw_support.html): within 2 business days
-* [Advanced Rear Support Contract]({{ site.url }}/rear-support/advanced_rear_sw_support.html): next business day
-* Business Rear Support Contract: weekdays (GMT+1 timeframe) based support contract (5x8)
-* Enterprise Rear Support Contract: 7x24 based support contracts
+* [Limited Rear Support Contract]({{ site.url }}/rear-support/limited_rear_sw_support.html): 3 incidents
+* [Standard Rear Support Contract]({{ site.url }}/rear-support/standard_rear_sw_support.html): 6 incidents
+* [Advanced Rear Support Contract]({{ site.url }}/rear-support/advanced_rear_sw_support.html): 10 incidents
+* Business Rear Support Contract: 15 incidents
+* Enterprise Rear Support Contract: 25 incidents
+* Unlimited Rear Support Contract: unlimited amount of incidents
 
-For more information or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf). If you feel the need to talk to an human or want more information about our company then go to our page ["about the company"]({{ site.url }}/company/about_company.html)
+For more information about the Service Level Agreements (SLA) or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf). If you feel the need to talk to an human or want more information about our company then go to our page ["about the company"]({{ site.url }}/company/about_company.html)
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="HZBDS4U5F6QY6">
 <table>
-<tr><td><input type="hidden" name="on0" value="Rear Support Contract">Rear Support Contract</td></tr><tr><td><select name="os0">
-	<option value="Limited (+REAR-1)">Limited (+REAR-1) €100,00 EUR</option>
-	<option value="Standard (+REAR-5)">Standard (+REAR-5) €400,00 EUR</option>
-	<option value="Advanced (+REAR-10)">Advanced (+REAR-10) €750,00 EUR</option>
-	<option value="Business (+REAR-100)">Business (+REAR-100) €6 000,00 EUR</option>
-	<option value="Enterprise (+REAR-1000)">Enterprise (+REAR-1000) €30 000,00 EUR</option>
+<tr><td><input type="hidden" name="on0" value="Rear Support Contract (SLA-bronze)">Rear Support Contract (SLA-bronze)</td></tr><tr><td><select name="os0">
+	<option value="Limited">Limited €550,00 EUR</option>
+	<option value="Standard">Standard €1 040,00 EUR</option>
+	<option value="Advanced">Advanced €1 700,00 EUR</option>
+	<option value="Business">Business €2 400,00 EUR</option>
+	<option value="Enterprise">Enterprise €4 250,00 EUR</option>
+	<option value="Unlimited">Unlimited €10 000,00 EUR</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -101,7 +104,7 @@ For more information or prices please [see the rear support services PDF file]({
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
 
-We will mail you an invoice which acts as a proof for a valid Rear Support contract.
+We will mail you an invoice which acts as a proof for a valid Rear Support contract. We have also more SLA's, like SLA-silver (next business day), SLA-gold (same business day) and SLA-diamant (within 4 hours). See our [pricelist]({{ site.url }}/rear-support/rear-support-pricelist.pdf) for prices.
 
 ## Free Rear Support Services
 
