@@ -32,6 +32,7 @@ We can imagine this may sound a bit overwhelming to you, but we can help you out
 * migrate disaster recovery solutions based on older or legacy DR methods towards rear
 * help you writing a disaster recovery manuals based on rear of course
 * give training sessions to your operational teams
+* assist in setting up an automated test environment for rear
 * can be delivered via teleconference, on-site, or any other means agreed upon
 
 Above list are paid services and are delivered by IT3 Consultants' author of rear (Gratien D'haese). Do not hesitate to contact us for more information about our services and/or prices.
@@ -75,6 +76,7 @@ To make you life easy we have foreseen the following options:
 ## Relax-and-Recover (Rear) Support Services
 
 Be aware that each rear support contract includes a rear subscription, so no need to buy a seperate rear subscription.
+For the customers with a support contract we set-up a continous rear testing in-house (at our the offices) for their Linux version.
 
 * Rear Consultancy (per hour or per day) - on-site or remote
 * [Limited Rear Support Contract]({{ site.url }}/rear-support/limited_rear_sw_support.html): 3 incidents
@@ -135,4 +137,4 @@ We organize on request rear workshops in our offices or at customer's location. 
 -	Wrap up and Frequently Asked Questions
 
 
-On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html) and [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653). The next free workshop will be organized at the [Open Source Backup Conference, Cologne](http://osbconf.org/workshops/) on 26 or 27 September 2016.
+On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html), [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653) and the workshop organized at the [Open Source Backup Conference, Cologne](http://osbconf.org/workshops/) on 26 or 27 September 2016.
