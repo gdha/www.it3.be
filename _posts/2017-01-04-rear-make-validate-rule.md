@@ -80,3 +80,6 @@ To test it we introduce a script starting with 2 digits.
     $ rm -f usr/share/rear/prep/default/22_faulty.sh
     
 
+References:
+
+* [Relax-and-Recover Release Notes 2.00](http://relax-and-recover.org/documentation/release-notes-2-00)
