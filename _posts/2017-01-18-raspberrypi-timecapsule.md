@@ -19,10 +19,9 @@ Then mount it onto directory `/mnt/TimeCapsule`, which first must be cerated of 
     /dev/sda1		/mnt/TimeCapsule	ext4	rw,defaults	0 3
 
 
-    $ rpm -qa --last | head -20
-
 To make the TimeCapsule working we need some extra software packages. We added the following packages (not all really required):
 
+    $ rpm -qa --last | head -20
     samba-4.1.9-3.fc20.armv6hl                    Tue Oct  7 21:22:32 2014
     libaio-0.3.109-8.fc20.armv6hl                 Tue Oct  7 21:22:29 2014
     samba-common-4.1.9-3.fc20.armv6hl             Tue Oct  7 21:22:24 2014
@@ -47,11 +46,9 @@ Then it is just a matter of some configuration tweaks:
     TIMELORD_RUN=no
     A2BOOT_RUN=no
     
-    
     $ grep -v \# /etc/netatalk/AppleVolumes.default
     :DEFAULT: cnidscheme:dbd options:upriv,usedots,tm allow:gdha
     /mnt/TimeCapsule                       "Time Capsule"
-    
     
     $ grep -v \# /etc/netatalk/afpd.conf           
     - -tcp -noddp -uamlist uams_dhx2.so,uams_dhx2_passwd.so   -nosavepassword
