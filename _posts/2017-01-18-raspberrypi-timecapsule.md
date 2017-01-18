@@ -1,4 +1,4 @@
---
+---
 layout: post
 title: Raspberry Pi timecapsule with Pidora Linux
 description:
@@ -12,9 +12,9 @@ After more then two years good service as timecapsule for my Macs we will refurb
 
 We just want to describe here briefly how we did the setup of the Raspberry Pi with Pidora Linux distribution and an external USB drive to capture the backups from the Macs. So, what do we need from hardware perspective? One Raspberry Pi, USB disk drive, an UTP network cable and power. Software needed is the [pidora linux distribution](http://pidora.ca/), but it can be any kind of Linux in my opinion.
 
-After installing pidora according the [instructions](https://wiki.cdot.senecacollege.ca/wiki/Pidora_Installation) we just need to tweek the configuration a bit to make it happen. First of all the external USB disk need to be connected and re-format it with parted in one big partition (Linux filesystem). We labeled it with a 'gpt' disklabel (not 'dos'). We formatted it with an 'ext4' file system.
+After installing pidora according the [instructions](https://wiki.cdot.senecacollege.ca/wiki/Pidora_Installation) we just need to tweek the configuration a bit to make it happen. First of all the external USB disk need to be connected and re-format it with parted in one big partition (Linux filesystem). We labeled it with a *gpt* disklabel (not *dos*). We formatted it with an *ext4* file system.
 
-Then mount it onto directory '/mnt/TimeCapsule', which first must be cerated of course and added an entry in the '/etc/fstab' file:
+Then mount it onto directory `/mnt/TimeCapsule`, which first must be cerated of course and added an entry in the `/etc/fstab` file:
 
     /dev/sda1		/mnt/TimeCapsule	ext4	rw,defaults	0 3
 
@@ -56,13 +56,13 @@ Then it is just a matter of some configuration tweaks:
     $ grep -v \# /etc/netatalk/afpd.conf           
     - -tcp -noddp -uamlist uams_dhx2.so,uams_dhx2_passwd.so   -nosavepassword
 
-Also, make sure the following services are enabled and started via 'systemctl':
+Also, make sure the following services are enabled and started via `systemctl`:
 
     avahi-daemon.service
     avahi-daemon.socket
     netatalk.service
 
-To make things easier for us we disbled SELinux as we used it as an internal solution. Also, make sure the hostname has the extension '.local' as we are avahi to get discovered by the Mac.
+To make things easier for us we disbled SELinux as we used it as an internal solution. Also, make sure the hostname has the extension *.local* as we are avahi to get discovered by the Mac.
 
 On the Mac open the Time Machine application and link your RaspberryPi IP address to it to make it work and login with your account.
 
