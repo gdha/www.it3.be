@@ -47,3 +47,5 @@ With `jekyll 1.0.3` or higher versions use:
 ```shell
 jekyll build
 ```
+
+Upgrade Issues with Jekyll with [Permalinks no longer automatically add a trailing slash](https://jekyllrb.com/docs/upgrading/2-to-3/#permalinks-no-longer-automatically-add-a-trailing-slash) are possible - if it hits you then you know what to do.
