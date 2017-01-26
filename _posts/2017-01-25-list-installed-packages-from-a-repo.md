@@ -16,6 +16,19 @@ Did you ever wonder if you install a package from which repo it comes? Or, see a
     RHEL6.8-updates
     epel
 
+Another mode to achieve the same output (if above did not work as expected) is the following (output from another system):
+
+    $ yum -v repolist | grep -i repo-id| awk '{print $3}' | cut -d'/' -f1
+    bareos_bareos-15.2
+    base
+    base-source
+    bluejeans
+    epel
+    extras
+    rpmforge
+    transip-stack
+    updates
+
 Above commands show you the yum repo names which are available on this particular system. To list all packages in
 for example `epel` repo we can do the following:
 
@@ -23,10 +36,19 @@ for example `epel` repo we can do the following:
     $ repoquery --repoid=$REPO -a --qf "%{name}" | sort > /tmp/repo_packages
     $ rpm -qa --qf "%{name}\n" | sort > /tmp/installed_packages
     $ comm -1 -2 /tmp/repo_packages /tmp/installed_packages
+    ansible
+    awscli
+    curlftpfs
+    duplicity
+    duply
+    epel-release
+    fuse-sshfs
+    ...
+
 
 What we did above is defining the yum repo we are interested in (in our example `epel`). Then we list up all packages this yum repo `epel` contains in a temporary file (`/tmp/repo_packages`) and list all installed packages on this system in a second file (`/tmp/installed_packages`). Finally, we just list up the packages which currently are present on this Linux system from yum repo `epel`.
 
-We could even create a loop around the output of *repolist* is we wanted.
+We could even create a loop around the output of *repolist* if we wanted. Perhaps, a little script can be made to list up all installed packages from all available repo's present on this system. To be continued.
 
 Enjoy this little feature,
 Gratien
