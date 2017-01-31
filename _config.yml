@@ -6,7 +6,7 @@ url: http://www.it3.be
 career_email: info@it3.be
 engineer_email: gratien.dhaese@it3.be
 
-permalink: /:year/:month/:day/:title/
+permalink: /:year/:month/:day/:title
 
 disqus_short_name: it3consultants
 

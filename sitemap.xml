@@ -19,7 +19,7 @@ layout: default
 		<priority>0.2</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}/blog.html</loc>
+		<loc>{{ site.url }}/blog/</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 		<priority>0.8</priority>
 	</url>
