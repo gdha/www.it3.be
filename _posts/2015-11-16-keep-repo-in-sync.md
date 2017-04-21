@@ -20,6 +20,7 @@ On a bash prompt you can then clone the fork to your own dircetories as follow:
 
 This is your *master* branch as you can see with the command:
 
+    $ cd ebiso
     $ git branch
     * master
 
