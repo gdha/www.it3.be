@@ -17,7 +17,7 @@ When you ever see a weird message like:
     Ansible failed to complete successfully. Any error output should be
     visible above. Please fix these errors and try again.
     
-Then do not try thousand of different thing with the YAML files, but inspect the content of the YAML files with `cat -v` for some non-ascii charecters. It can save you hours of troubleshooting!
+Then do not try thousand of different things with the YAML files, but inspect the content of the YAML files with `cat -v` for some non-ascii characters. It can save you hours of troubleshooting!
 
     $ cat -v create_users.yml
     ---
