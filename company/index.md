@@ -25,8 +25,11 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Cluster setup and configuration (HP-UX/Linux ServiceGuard and Veritas Cluster Server)
  * Business Continuity procedures (installation, setup and configuration)
  * Backup and disaster recovery procedures (installation, setup and configuration)
+ * Writing Cookbooks in Chef or Ansible
+ * Writing Compliance tests with inspec
  * Code writing for Open Source projects, such as
-   - [Relax-and-Recover (rear)]({{ site.url }}/projects/rear.html): Linux Disaster Recovery framework
+   - [Relax-and-Recover (ReaR)]({{ site.url }}/projects/rear.html): Linux Disaster Recovery framework
+   - [Relax-and-Recover (ReaR) Automated Testing]({{ site.url }}/projects/rear-automated-testing.html) project 
    - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux.html): Open Source update and/or patching framework
    - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html.html): linux Configuration Collector
    - [WBEMextras]({{ site.url }}/projects/wbemextras.html): HP SIM software installer and configurator for HP-UX systems

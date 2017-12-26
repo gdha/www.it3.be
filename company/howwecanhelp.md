@@ -26,6 +26,8 @@ We can help you figure out where your computing environment should be heading, a
 ### Configuration and Troubleshooting Services
 
  * Systems Integration of technologies for your computing environment
+ * Configuration management with Ansible or Chef
+ * Compliance Testing with Inspec
  * Performance Analysis of networks and other critical resources (HP OV Operations, HP IT/O, HP NNM, HP PerfView and HP Glance)
  * Router configuration
  * Modem / UUCP / Sendmail / Electronic Mail configuration
@@ -34,11 +36,13 @@ We can help you figure out where your computing environment should be heading, a
  * Software and Hardware configuration and fine-tuning
  * Cluster configuration (HP ServiceGuard) on HP-UX and Linux
  * Backup configuration (HP Data Protector, EMC NetWorker, Bareos, duplicity)
- * Disaster Recovery Design on HP-UX using Ignite/UX or on Linux using Rear
+ * Disaster Recovery Design on HP-UX using Ignite/UX or on Linux using ReaR
  * [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html) support and migration to Rear services
  * [Relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html) support services
 
 ### Writing code
 
- * Korn Shell or Bash scripts for any kind of purpose
- * Starting up new (open source) projects (sponsored projects - read paid for)
+ * Korn or Bash shell scripts for any kind of purpose
+ * Ruby language (for Chef)
+ * Write Chef Cookbooks, Ansible Playbooks or Inspec tests
+ * Starting up new (open source) projects (sponsored projects - read _being paid for_)

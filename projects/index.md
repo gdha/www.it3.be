@@ -11,12 +11,15 @@ What kind of projects are we involved in? In short for customer who pay for it a
 
 On Open Source projects we give more details.
 
-## Relax-and-Recover (rear)
+## Relax-and-Recover (Rea)
 
 <img src="{{ site.url }}/images/logo/rear_logo_100.png" width="30" height="30" align="left" alt="Rear logo">
 
 [Relax-and-Recover]({{ site.url }}/projects/rear.html) is an open source Disaster Recovery tool handling bare metal restores in an automated way (as much as possible). Making snapshots of your system can be done *on-line* and send over to remote storage such as NAS, CIFS, USB, Network,...
 
+## Relax-and-Recover (ReaR) AUtomated Testing
+
+[Relax-and-Recover Automated Testing ]({{ site.url }}/projects/rear-automated-testing.md) is an open source sub-project of ReaR dedicated to ReaR testing fully automated. This project is sponsored by customers who subscribed to one of our [ReaR Support Services]({{ site.url }}/rear-support/).
 
 ## Upgrade-UX
 
@@ -40,5 +43,5 @@ On Open Source projects we give more details.
 
 ## Make CD-ROM Recovery (mkcdrec)
 
-[mkCDrec]({{ site.url }}/projects/mkcdrec.html) is the predecessor project of rear and is now phasing out in favour of [rear]({{ site.url }}/projects/rear.html). Getting support is still possible, but no longer free of charge.
+[mkCDrec]({{ site.url }}/projects/mkcdrec.html) is the predecessor project of ReaR and has been phased out in favour of [ReaR]({{ site.url }}/projects/rear.html). Getting support is still possible, but no longer free of charge.
 
