@@ -39,9 +39,9 @@ Upgrade-UX has a wide range of features:
 The support and development of the Upgrade-UX project takes place
 on Github:
 
- - [Upgrade-UX website](http://www.it3.be/projects/upgrade-ux.html)
+ - [Upgrade-UX website]({{ site.url }}/projects/upgrade-ux/)
  - [Github project](http://github.com/gdha/upgrade-ux)
- - [Upgrade-ux User Guide](http://www.it3.be/projects/upgrade-ux-user-guide.html)
+ - [Upgrade-ux User Guide]({{ site.url }}/projects/upgrade-ux/upgrade-ux-user-guide.html)
  - [Lighning-talk FOSDEM 2015](http://mirror.as35701.net/video.fosdem.org/2015/lightning_talks/upgrade_ux.mp4)
 
 In case you have questions, ideas or feedback about this document, you

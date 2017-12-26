@@ -37,8 +37,8 @@ We can help you figure out where your computing environment should be heading, a
  * Cluster configuration (HP ServiceGuard) on HP-UX and Linux
  * Backup configuration (HP Data Protector, EMC NetWorker, Bareos, duplicity)
  * Disaster Recovery Design on HP-UX using Ignite/UX or on Linux using ReaR
- * [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html) support and migration to Rear services
- * [Relax-and-Recover (rear)]({{ site.url }}/company/rear-support.html) support services
+ * [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/) support and migration to Rear services
+ * [Relax-and-Recover (rear)]({{ site.url }}/company/rear-support/) support services
 
 ### Writing code
 

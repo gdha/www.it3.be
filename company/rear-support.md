@@ -49,7 +49,7 @@ Above list are paid services and are delivered by IT3 Consultants' author of Rea
 * Enterprise (REAR-E)
 * Unlimited (REAR-U)
 
-For more information please contact us.
+For more information please [have a look at]({{ site.url }}/company/rear-support/).
 
 ## Free ReaR Support Services
 

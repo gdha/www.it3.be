@@ -9,12 +9,12 @@ layout: default
 		<priority>0.5</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}/about.html</loc>
+		<loc>{{ site.url }}/about/</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 		<priority>0.3</priority>
 	</url>
 	<url>
-		<loc>{{ site.url }}/privacy.html</loc>
+		<loc>{{ site.url }}/privacy/</loc>
 		<lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
 		<priority>0.2</priority>
 	</url>

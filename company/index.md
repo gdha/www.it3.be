@@ -7,16 +7,16 @@ author: gratien
 
 ## IT3 Consultants bvba
 
-[How we can help you get what you want]({{ site.url }}/company/howwecanhelp.html).
+[How we can help you get what you want]({{ site.url }}/company/howwecanhelp/).
 What do we offer as a company?
 
-### [About the company]({{ site.url }}/company/about_company.html)
+### [About the company]({{ site.url }}/company/about_company/)
 
 ### Consultancy Offerings
 
 The following list of consultancy tasks are offered by IT3 Consultants:
 
- * [Senior system management of UNIX and Windows systems]({{ site.url }}/company/senior-sysadmin.html)
+ * [Senior system management of UNIX and Windows systems]({{ site.url }}/company/senior-sysadmin/)
  * Re-engineering your IT infrastructure
  * Technical Project Management
  * Assist the customer in fine-tune mission critical servers
@@ -28,16 +28,16 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Writing Cookbooks in Chef or Ansible
  * Writing Compliance tests with inspec
  * Code writing for Open Source projects, such as
-   - [Relax-and-Recover (ReaR)]({{ site.url }}/projects/rear.html): Linux Disaster Recovery framework
-   - [Relax-and-Recover (ReaR) Automated Testing]({{ site.url }}/projects/rear-automated-testing.html) project 
-   - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux.html): Open Source update and/or patching framework
-   - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html.html): linux Configuration Collector
-   - [WBEMextras]({{ site.url }}/projects/wbemextras.html): HP SIM software installer and configurator for HP-UX systems
-   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr.html): deploy and run software on many simultanous systems
-   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec.html): linux DR solution
+   - [Relax-and-Recover (ReaR)]({{ site.url }}/projects/rear/): Linux Disaster Recovery framework
+   - [Relax-and-Recover (ReaR) Automated Testing]({{ site.url }}/projects/rear-automated-testing/) project 
+   - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux/): Open Source update and/or patching framework
+   - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html/): linux Configuration Collector
+   - [WBEMextras]({{ site.url }}/projects/wbemextras/): HP SIM software installer and configurator for HP-UX systems
+   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr/): deploy and run software on many simultanous systems
+   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/): linux DR solution
 
 ### Service Offerings
 
  * [Software Support Services for Relax-and-Recover (rear)]({{ site.url }}/rear-support/)
- * [Linux support services]({{ site.url }}/company/linux-support.html)
+ * [Linux support services]({{ site.url }}/company/linux-support/)
 

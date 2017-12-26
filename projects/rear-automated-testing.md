@@ -9,7 +9,7 @@ author: gratien
 
 <img src="{{ site.url }}/images/logo/rear_logo_100.png" width="50" height="50" alt="Rear logo">
 
-[Relax-and-Recover]({{ site.url }}/projects/rear.html) is our well known open source project dealing with Disaster Recovery of bare metal GNU/Linux systems. 
+[Relax-and-Recover]({{ site.url }}/projects/rear/) is our well known open source project dealing with Disaster Recovery of bare metal GNU/Linux systems. 
 ReaR is a modular disaster recovery engine completely written in bash and released under GPL v3 license. ReaR can store the details about your systems on hard disks (network, USB, SAN,...) or network (PXE, NFS, CIFS,...) including the complete backup. It also creates a bootable image which you need to recreate your system from scratch. Furthermore, thanks to the modular concept, we can integrate rear with foreign backup solutions (commercial or not) to do the backup and restore part which makes rear very scalable in big enterprises.
 Testing such wide range of features on different GNU/Linux distributions such as:
 
@@ -35,9 +35,9 @@ Currently, we do automated tests on:
 If you would like to see your use case being automated tested you need to subscribe for one of the [ReaR support offerings]({{ site.url }}/rear-support/)
 Want to know more? Perhaps watch one of the [presentation about ReaR Automated Testing](https://media.ccc.de/v/froscon2017-1957-relax-and-recover_automated_testing).
 
-External link to [ReaR Automated Testing Documenation](https://gdha.github.io/rear-automated-testing/)
-External link to [ReaR Automated Testing GitHub Sources](https://github.com/gdha/rear-automated-testing)
-External link to [ReaR Automated Testing GitHub Issues](https://github.com/gdha/rear-automated-testing/issues)
-External link to [Presentation at FroSCon 2017 about ReaR Automated Testing](https://media.ccc.de/v/froscon2017-1957-relax-and-recover_automated_testing)
-External link to [Relax-and-Recover](http://relax-and-recover.org/)
-External link to [Bareos](https://www.bareos.org/en/)
+ - External link to [ReaR Automated Testing Documenation](https://gdha.github.io/rear-automated-testing/)
+ - External link to [ReaR Automated Testing GitHub Sources](https://github.com/gdha/rear-automated-testing)
+ - External link to [ReaR Automated Testing GitHub Issues](https://github.com/gdha/rear-automated-testing/issues)
+ - External link to [Presentation at FroSCon 2017 about ReaR Automated Testing](https://media.ccc.de/v/froscon2017-1957-relax-and-recover_automated_testing)
+ - External link to [Relax-and-Recover](http://relax-and-recover.org/)
+ - External link to [Bareos](https://www.bareos.org/en/)
