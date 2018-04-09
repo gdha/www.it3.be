@@ -18,7 +18,7 @@ Secondly, spend sufficient time to install all executables and repositories requ
 
 As a third step, before creating a vagrant box, we created a user 'vagrant' and made sure that the disk device was not defined with the by-id name (as the name changes when we import the VM via packer - but that is for later), and also remove the `/etc/udev/rules.d/90-persistent-network.rules` file as the MAC addresses will change also after the import (things we learned while trying it out).
 
-So, halt the VM and export it [as described on the page VirtualBox Builder](https://www.packer.io/docs/builders/virtualbox-ovf.html). we saved the ovf and vmdf file in a `$HOME/packer` directory. we also require the [`packer`](https://www.packer.io/downloads.html) executable and save this as `/usr/local/bin/packer`.
+So, halt the VM and export it [as described on the page VirtualBox Builder](https://www.packer.io/docs/builders/virtualbox-ovf.html). We saved the ovf and vmdf file in a `$HOME/packer` directory. we also require the [`packer`](https://www.packer.io/downloads.html) executable and save this as `/usr/local/bin/packer`.
 
 The following step is the create a JSON template file describing the box we want to create.
 
@@ -28,16 +28,16 @@ The following step is the create a JSON template file describing the box we want
       "builders": [{
         "type": "virtualbox-ovf",
         "vm_name": "packer-sles11sp4",
-        "source_path": "/home/gdha/packer/sles11sp4.ovf",
-        "ssh_username": "{{user `ssh_name`}}",
-        "ssh_password": "{{user `ssh_pass`}}",
+        "source_path": "sles11sp4.ovf",
+        "ssh_username": "vagrant",
+        "ssh_password": "vagrant",
         "ssh_port": 22,
         "ssh_wait_timeout": "10000s",
-        "shutdown_command": "echo '{{user `ssh_name`}}'|sudo -S /sbin/halt -h -p"
+        "shutdown_command": "echo 'vagrant'|sudo -S /sbin/halt -h -p"
       }],
       "post-processors": [{
         "type": "vagrant",
-        "compression_level": "{{user `compression_level`}}",
+        "compression_level": "6",
         "output": "sles11sp4-virtualbox.box"
       }],
       "variables": {
@@ -56,7 +56,7 @@ The next step is to create the box itself with packer, but to make our lives a b
     Relax-and-Recover Automated Testing
     https://gdha.github.io/rear-automated-testing/'
     
-    vm_version='0.0.2'
+    vm_version='0.0.3'
     
     /usr/local/bin/packer build \
         -var "vm_description=${vm_description}" \
@@ -103,8 +103,15 @@ Every time we need to update the version we just need to edit the `mkbox.sh` scr
 
 As last step, we need to upload the box to [Vagrant Cloud](https://app.vagrantup.com/). You must have an account and then you can create a release for this box and start the upload. Once done, the box should be available via:
 
-   Vagrant.configure("2") do |config|
-     config.vm.box = "gdha/sles11sp4"
-     config.vm.box_version = "0.0.2"
-   end
 
+    Vagrant.configure("2") do |config|
+      config.vm.box = "gdha/sles11sp4"
+      config.vm.box_version = "0.0.3"
+    end
+
+
+## References
+
+ - [SLES 11 SP4 Vagrant box for VirtualBox](https://app.vagrantup.com/gdha/boxes/sles11sp4)
+ - [sles11sp4-vagrant-box project at GitHub](https://github.com/gdha/sles11sp4-vagrant-box)
+ - [packer utility](https://www.packer.io/downloads.html)
