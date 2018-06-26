@@ -40,6 +40,7 @@ Above list are paid services and are delivered by IT3 Consultants' author of Rea
 ## Relax-and-Recover (ReaR) Software Subscriptions
 
 We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like ReaR and want us to keep up doing the good work then we would appreciate you go for a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
+By taking a ReaR Software Subscription you will also sponsor our second project "[Relax-and-Recover Automated Testing]({{ site.url }}/projects/rear-automated-testing/)" which we use to test all updates on a daily basis.
 
 To make you life easy we have foreseen the following ReaR subscription options (on yearly basis):
 
@@ -61,8 +62,7 @@ To make you life easy we have foreseen the following ReaR subscription options (
 
 ## Relax-and-Recover (ReaR) Support Services
 
-Be aware that each ReaR support contract does not include a ReaR subscription, so you need to buy a seperate ReaR subscription based on the amount of units (a system where ReaR is installed and configured).
-For the customers with a support contract we set-up a continous [ReaR testing]({{ site.url }}/projects/rear-automated-testing/) in-house (at our the offices) for their Linux version.
+Be aware that each ReaR support contract does not include a ReaR Software Subscription, so you need to buy a seperate ReaR subscription based on the amount of units (a system where ReaR is installed and configured).
 
 We have the following ReaR Support Contracts available according your needs:
 
@@ -101,7 +101,7 @@ We organize on request ReaR workshops in our offices or at customer's location. 
 -	Security considerations
 -	Lab 1: Set it up in our lab environment
 -	Complex configurations and possibilities
--	Lab2: make a rescue image and boot from it
+-	Lab 2: make a rescue image and boot from it
 -	Understanding the Disaster Recovery Process of a server
 -	Lab 3: make a backup of the server with rear and do a recovery on a virtual machine
 -	Disaster Recovery as a Service
@@ -110,4 +110,4 @@ We organize on request ReaR workshops in our offices or at customer's location. 
 -	Wrap up and Frequently Asked Questions
 
 
-On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html), [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653) and the workshop organized at the [Open Source Backup Conference, Cologne](http://osbconf.org/workshops/) on 26 or 27 September 2016.
+On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html), [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653) and the workshop organized at the [Open Source Backup Conference, Cologne](http://osbconf.org/workshops/) in 2016.
