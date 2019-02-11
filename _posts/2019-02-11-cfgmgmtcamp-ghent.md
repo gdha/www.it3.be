@@ -17,7 +17,7 @@ The slides of the presentation are available at Slideshare:
 A picture of the beginning of the presentation:
 <img src="{{ site.url }}/images/voordracht-inspec-gdha-1.jpg" alt="Picture of beginning of the presentation in Ghent" width="595" height="485" frameborder="0">
 
-And, a picture during the presentation:
+<p>And, a picture during the presentation:</p>
 <img src="{{ site.url }}/images/voordracht-inspec-gdha-2.jpg" alt="Picture of beginning of the presentation in Ghent" width="595" height="485" frameborder="0">
 
 The presentation's topic was InSpec and how to use it in practice with plenty of exercises which you could use at home as well [2][3].
