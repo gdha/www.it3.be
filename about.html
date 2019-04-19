@@ -35,10 +35,6 @@ author: gratien
 					{% if contributor[1].linkedin %}
 					<a itemprop="url" href="http://www.linkedin.com/in/{{ site.authors[page.author].linkedin }}"><img src="{{ site.url }}/images/linkedin.png" alt="Linkedin Profile"></a>
 					{% endif %}
-
-					{% if contributor[1].gplus %}
-					<a itemprop="url" href="https://plus.google.com/{{ site.authors[page.author].gplus }}?rel=author"><img src="{{ site.url }}/images/google_plus.png" alt="Google+ Profile"></a>
-					{% endif %}
 				</div>
 				<div class="member_position">Work as <span itemprop="jobTitle">{{ contributor[1].position }}</span>, since <time datetime="{{ contributor[1].start_date | date:"%Y-%m-%d" }}">{{ contributor[1].start_date | date:"%B, %Y" }}</time>.</div>
 				<div class="member_description">{{ contributor[1].about }}</div>
