@@ -5,7 +5,7 @@ description: An overview of the Company and Services
 author: gratien
 ---
 
-## IT3 Consultants bvba
+## IT3 Consultants bv
 
 [How we can help you get what you want]({{ site.url }}/company/howwecanhelp/).
 What do we offer as a company?

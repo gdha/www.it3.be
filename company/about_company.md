@@ -7,10 +7,10 @@ author: gratien
 
 ## About the Company
 
-### Contact IT3 Consultants bvba
+### Contact IT3 Consultants bv
 <strong>Address:</strong>
 
-IT3 Consultants bvba<br>
+IT3 Consultants bv<br>
 Vennestraat 15<br>
 B-2560 Nijlen<br>
 Belgium
