@@ -16,7 +16,7 @@ else
 endif
 
 upload: build
-	lftp -e 'mirror -R $(SITE) /wwwroot ; bye' apache07.hostbasket.com
+	lftp -e 'mirror -R $(SITE) /wwwroot ; bye' it3.be.apache52.cloud.telenet.be
 
 server:
 	@echo -e "\033[1m== Building website ==\033[0;0m"

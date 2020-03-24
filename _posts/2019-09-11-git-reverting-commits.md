@@ -47,7 +47,7 @@ The following is such an example:
         
         Use mountpoint instead of mount|grep
     
-Well, after some time we realized that we should got back to the commeit "a252ca20b5dc9f34f6c8fffb61e055141ca37669" and forget all the more recent commits. 
+Well, after some time we realized that we should got back to the commit "a252ca20b5dc9f34f6c8fffb61e055141ca37669" and forget all the more recent commits. 
 
 This is how it done quickly and rather easy:
 
