@@ -3,6 +3,7 @@
 # docker run -it -v /home/gdha/projects/web/www.it3.be:/home/gdha/www.it3.be  -v /home/gdha/.netrc:/home/gdha/.netrc --net=host jekyll
 
 FROM ubuntu:18.04
+SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 RUN apt-get update \
     && apt-get install -y --no-install-recommends curl \
