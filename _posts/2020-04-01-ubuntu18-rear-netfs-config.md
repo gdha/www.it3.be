@@ -125,4 +125,4 @@ References:
 
 [1] [Relax-and-Recover (ReaR)](http://relax-and-recover.org/)
 
-[2] [Relax-and-Recover Professional Support](http://www.it3.be/rear-support/)
+[2] [Relax-and-Recover Professional Support](https://www.it3.be/rear-support/)
