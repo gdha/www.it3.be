@@ -1,6 +1,8 @@
 # Dockerfile to build/generate web-site www.it3.be
 # docker build -t jekyll .
 # docker run -it -v /home/gdha/projects/web/www.it3.be:/home/gdha/www.it3.be  -v /home/gdha/.netrc:/home/gdha/.netrc --net=host jekyll
+# Afterwards we can just start the container as:
+# docker start -i jekyll
 
 FROM ubuntu:18.04
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
