@@ -42,7 +42,7 @@ Above list are paid services and are delivered by IT3 Consultants' author of Rea
 We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like ReaR and want us to keep up doing the good work then we would appreciate you go for a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
 By taking a ReaR Software Subscription you will also sponsor our project "[Relax-and-Recover Automated Testing]({{ site.url }}/projects/rear-automated-testing/)" which we use to test all updates on a regular basis.
 
-Futhermore, a ReaR Subscription will allow us to work 1 hour per week (for REAR-10) and 3 hours per week (for REAR-100 and above) on the [Relax-and-Recover User Guide Documentation] ({{ site.url }}/projects/rear-user-guide/) project.
+Futhermore, a ReaR Subscription will allow us to work 1 hour per week (for REAR-10) and 3 hours per week (for REAR-100 and above) on the [Relax-and-Recover User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) project.
 
 To make you life easy we have foreseen the following ReaR subscription options (on yearly basis):
 
