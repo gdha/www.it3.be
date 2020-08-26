@@ -15,13 +15,17 @@ If you need someone to work with you for 3-6 months, we can help you run your co
 ## What experience can IT3 Consultants offer you?
 
  * Unix systems and Local Area Networking integration, management, consulting, and support.
- * Over 15 years of experience in communications and operating systems support and development.
+ * Over 25 years of experience in communications and operating systems support and development.
  * In-depth understanding of heterogeneous computing and communications systems, Internet access and security, Unix internals, hardware/software interfaces, project management, client management, systems management and customer support.
  * MySQL and Oracle basic administration knowledge.
  * HP Serviceguard cluster configuration/installation and maintenance (on HP-UX and GNU/Linux systems), including
    - Campus cluster
    - Metro Cluster
    - Disaster Tolerant Cluster (or Continental cluster)
+ * Kubernetes Administration
+   - RedHat OpenShift (OCPII certified)
+   - Rancher
+   - Rancher Labs' k3s
  * In-depth knowledge on the following hardware platforms and Operating Systems:
    - PA-RISC and IA64 (Hewlett-Packard), HP/UX  11.00, 11i, 11.23 and 11.31
    - Linux 2.4, 2.6 and 3.x (IA32/64, AMD/Opteron, ec2 AWS)
@@ -32,7 +36,7 @@ If you need someone to work with you for 3-6 months, we can help you run your co
    - HPs XP, HP 3Par and EVA storage boxes
    - EMC2 storage boxes
  * Building software packages (including patch bundles) for HP-UX, Solaris and Linux
- * Implementing backup and restore solutions (HP Data Protector, Bareos, and many others)
+ * Implementing backup and restore solutions (Data Protector, Bareos, and many others)
  * Developing and/or implementing Security Policies
  * Implementing firewall software according Security Policies (Firewall-I, Open Source solutions)
  * Support Services and Consultancy on [Relax and Recover (Rear)]({{ site.url }}/rear-support/)

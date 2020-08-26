@@ -54,7 +54,7 @@ A simple output of cfg2html looks like:
 
 If you find problems, bugs and have some bright news ideas please make a new [issue](https://github.com/cfg2html/cfg2html/issues) at  our GitHub project pages.
 
-We made an HP-UX software depot available of `cfg2html` at the [Download Page for HP-UX]({{ site.url }}/projects/cfg2html/hpux/)
+HP-UX software depots of `cfg2html` are available at the [Download Page of cfg2html](https://www.cfg2html.com/)
 
 To install this on HP-UX 11i systems, first download this depot and install as follow:
 
@@ -62,3 +62,4 @@ To install this on HP-UX 11i systems, first download this depot and install as f
 
 The cfg2html packages for Linux are daily build on OpenSuSe Build Service - select your Linux versions and go deeper in the *noarch* subdirectory. See [the daily builds](http://download.opensuse.org/repositories/home:/gdha/)
 
+External link: [Cfg2html home](https://www.cfg2html.com/)

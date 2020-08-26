@@ -9,7 +9,7 @@ author: gratien
 
 What kind of projects are we involved in? In short for customer who pay for it and open source projects. It is clear that on projects done for customers we cannot communicate much without their approval.
 
-On Open Source projects we give more details.
+On the following Open Source projects we can give more details.
 
 ## Relax-and-Recover (ReaR)
 
@@ -19,7 +19,11 @@ On Open Source projects we give more details.
 
 ## Relax-and-Recover (ReaR) Automated Testing
 
-[Relax-and-Recover Automated Testing ]({{ site.url }}/projects/rear-automated-testing/) is an open source sub-project of ReaR dedicated to ReaR testing fully automated. This project is sponsored by customers who subscribed to one of our [ReaR Support Services]({{ site.url }}/rear-support/).
+[Relax-and-Recover Automated Testing]({{ site.url }}/projects/rear-automated-testing/) is an open source sub-project of ReaR dedicated to ReaR testing fully automated. This project is sponsored by customers who subscribed to one of our [ReaR Support Services]({{ site.url }}/rear-support/).
+
+## Relax-and-Recover (ReaR) User Guide Documentation
+
+[Relax-and-Recover (ReaR) User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) is an open source sub-project of ReaR dedicated to provide a decent ReaR User Guide for the community. A [ReaR Subscription]({{ site.url }}/projects/rear-user-guide/) buys you guaranteed time per week that we will work on the User Guide.
 
 ## Upgrade-UX
 
@@ -39,9 +43,9 @@ On Open Source projects we give more details.
 
 ## Wbemextras
 
-[wbemextras]({{ site.url }}/projects/wbemextras/) contains some scripts to assist in HP SIM installation and configuration on HP-UX
+[wbemextras]({{ site.url }}/projects/wbemextras/) contains some scripts to assist in HP SIM installation and configuration on HP-UX, but is in the meantime a retired project.
 
 ## Make CD-ROM Recovery (mkcdrec)
 
-[mkCDrec]({{ site.url }}/projects/mkcdrec/) is the predecessor project of ReaR and has been phased out in favour of [ReaR]({{ site.url }}/projects/rear.html). Getting support is still possible, but no longer free of charge.
+[mkCDrec]({{ site.url }}/projects/mkcdrec/) is the predecessor project of ReaR and has been phased out in favour of [ReaR]({{ site.url }}/projects/rear/). mkCDrec is a retired project, but getting support is still possible, however no longer free of charge.
 

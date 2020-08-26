@@ -11,7 +11,7 @@ tags: [rear, relax and recover, linux disaster recovery solution, IT3 Consultant
 ## What is Relax-and-Recover (ReaR)?
 
 <img src="{{ site.url }}/images/logo/rear_logo_100.png" width="51" height="58" border="0" align="left" alt="Rear logo" />
-Rear stands for <strong>Re</strong>lax <strong>a</strong>nd <strong>r</strong>ecover and is a Linux Disaster Recovery framework written in bash shell.
+Rear stands for <strong>Re</strong>lax <strong>a</strong>nd <strong>R</strong>ecover and is a Linux Disaster Recovery framework written in bash shell language.
 
 We have a dedicated web site on rear at [http://relax-and-recover.org/](http://relax-and-recover.org/)
 

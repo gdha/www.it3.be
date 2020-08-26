@@ -12,7 +12,7 @@ We can help you figure out where your computing environment should be heading, a
 
 ### Planning and Strategy Services
 
- * Project Management and Integration of Multi-Vendor Electronic Mail Systems across multiple platforms (Microsoft Exchange, Microsoft Openlook, Unix, SMTP, POP3, IMAP4, LDAP, anti-SPAM, virus scanning)
+ * Project Management and Integration of Multi-Vendor Electronic Mail Systems across multiple platforms (Unix, Linux, SMTP, POP3, IMAP4, LDAP, anti-SPAM, virus scanning)
  * Internet access (PPP, cable, ADSL)
  * Equipment and user move planning
  * User and System Support Strategies
@@ -22,14 +22,16 @@ We can help you figure out where your computing environment should be heading, a
  * Capacity Planning
  * Unix SysAdmin tasks (HP-UX, Solaris, Linux)
  * Disaster Recovery Planning (HP-UX, Linux)
+ * DevOps Strategy and Planning (chef, ansible)
 
 ### Configuration and Troubleshooting Services
 
  * Systems Integration of technologies for your computing environment
+ * Administrating OpenShift or Rancher kubernetes environments
  * Configuration management with Ansible or Chef
  * Compliance Testing with Inspec
  * Performance Analysis of networks and other critical resources (HP OV Operations, HP IT/O, HP NNM, HP PerfView and HP Glance)
- * Router configuration
+ * Basic Router configuration
  * Modem / UUCP / Sendmail / Electronic Mail configuration
  * Internet access and troubleshooting (including firewall rules)
  * Network Data-Flow and Workgroup troubleshooting
@@ -38,11 +40,12 @@ We can help you figure out where your computing environment should be heading, a
  * Backup configuration (HP Data Protector, EMC NetWorker, Bareos, duplicity)
  * Disaster Recovery Design on HP-UX using Ignite/UX or on Linux using ReaR
  * [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/) support and migration to Rear services
- * [Relax-and-Recover (rear)]({{ site.url }}/company/rear-support/) support services
+ * [Relax-and-Recover (rear)]({{ site.url }}/rear-support/) support services
 
 ### Writing code
 
  * Korn or Bash shell scripts for any kind of purpose
  * Ruby language (for Chef)
+ * Python scripts
  * Write Chef Cookbooks, Ansible Playbooks or Inspec tests
  * Starting up new (open source) projects (sponsored projects - read _being paid for_)

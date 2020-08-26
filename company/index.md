@@ -24,17 +24,19 @@ The following list of consultancy tasks are offered by IT3 Consultants:
  * Consultancy work around UNIX and Windows servers (including security)
  * Cluster setup and configuration (HP-UX/Linux ServiceGuard and Veritas Cluster Server)
  * Business Continuity procedures (installation, setup and configuration)
+ * Kubernetes administration (OpenShift, Rancher2, k3s)
  * Backup and disaster recovery procedures (installation, setup and configuration)
  * Writing Cookbooks in Chef or Ansible
  * Writing Compliance tests with inspec
  * Code writing for Open Source projects, such as
-   - [Relax-and-Recover (ReaR)]({{ site.url }}/projects/rear/): Linux Disaster Recovery framework
+   - [Relax-and-Recover (ReaR)]({{ site.url }}/projects/rear/): Open Source Linux Disaster Recovery project
    - [Relax-and-Recover (ReaR) Automated Testing]({{ site.url }}/projects/rear-automated-testing/) project 
-   - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux/): Open Source update and/or patching framework
-   - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html/): linux Configuration Collector
-   - [WBEMextras]({{ site.url }}/projects/wbemextras/): HP SIM software installer and configurator for HP-UX systems
+   - [Relax-and-Recover (ReaR) User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) project
+   - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux/): Open Source update and/or patching framework for HP-UX and/or Linux
+   - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html/): GNU/Linux Configuration Collector
    - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr/): deploy and run software on many simultanous systems
-   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/): linux DR solution
+   - [WBEMextras]({{ site.url }}/projects/wbemextras/): HP SIM software installer and configurator for HP-UX systems (archived)
+   - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/): GNU/Linux DR solution (archived)
 
 ### Service Offerings
 

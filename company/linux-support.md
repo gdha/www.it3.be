@@ -24,10 +24,11 @@ The key benefits we as a company have are the following:
  * A cheap and reliable solution for mission critical servers with Hardware RAID or Software RAID. On top of that we use reliable filesystems like ReiserFS, JFS, xFS with LVM2 as logical volume manager.
  * Linux is a very popular Internet server for WWW, FTP, Mail, file server (SAMBA/CIFS) and even as firewall. 
  * In-depth knowledge on lots of network protocols.
- * Maintainer  and main developer of several Open Source Projects.
+ * Maintainer and main developer of several Open Source Projects in the course of the years:
    - Lead developer and project manager of the Open Source Project [Relax and Recover (Rear)]({{ site.url }}/projects/rear/) since 2006.
    - Main sponsor of the [Relax-and-Recover Automated Testing project]({{ site.url }}/projects/rear-automated-testing/)
    - Maintainer of the Open Source Project [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr/)
    - Maintainer of Linux distribution CD-ROMs made for the Belgian UNIX Users Group (BUUG) from 1992-1996
    - Lead developer and project manager of the Open Source Project [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/) since 2000. Mkcdrec is since 2012 not actively developed anymore as we have put our effort into rear. Mkcdrec has been retired as a project.
    - Maintainer of the Open Source Project [mkCDrec Utilities](http://mkcdrec.sourceforge.net/utilities.html) since 2001 (Retired project).
+   - Overview of all my [Open Source projects kept on GitHub](https://github.com/gdha?tab=repositories)
