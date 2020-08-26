@@ -40,7 +40,9 @@ Above list are paid services and are delivered by IT3 Consultants' author of Rea
 ## Relax-and-Recover (ReaR) Software Subscriptions
 
 We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like ReaR and want us to keep up doing the good work then we would appreciate you go for a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
-By taking a ReaR Software Subscription you will also sponsor our second project "[Relax-and-Recover Automated Testing]({{ site.url }}/projects/rear-automated-testing/)" which we use to test all updates on a daily basis.
+By taking a ReaR Software Subscription you will also sponsor our project "[Relax-and-Recover Automated Testing]({{ site.url }}/projects/rear-automated-testing/)" which we use to test all updates on a regular basis.
+
+Futhermore, a ReaR Subscription will allow us to work 1 hour per week (for REAR-10) and 3 hours per week (for REAR-100 and above) on the [Relax-and-Recover User Guide Documentation] ({{ site.url }}/projects/rear-user-guide/) project.
 
 To make you life easy we have foreseen the following ReaR subscription options (on yearly basis):
 
@@ -66,12 +68,9 @@ Be aware that each ReaR support contract does not include a ReaR Software Subscr
 
 We have the following ReaR Support Contracts available according your needs:
 
-* Quickstart (REAR-Q) is a step-in contract to assist you in getting started with ReaR without too much hussle and foresees maximum 3 incidents with a response time within *two* or *three* business days (in worst case)
-* Standard (REAR-S) foresees maximum 10 incidents with a response time within *two* business days
-* Advanced (REAR-A) foresees maximum 15 incidents with a response time on the *next* business day
+* Standard (REAR-S) foresees maximum 5 incidents with a response time within *two* business days
+* Advanced (REAR-A) foresees maximum 10 incidents with a response time on the *next* business day
 * Business (REAR-B) foresees maximum 20 incidents with a response time on the *same* business day
-* Enterprise (REAR-E) foresees maximum 50 incidents with a response time within 4 hours (on business days)
-* Unlimited (REAR-U) has no incident limitationis and covers 24x7 with a response time within the hour
 
 For more information about the Service Level Agreements (SLA) or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf). If you feel the need to talk to an human or want more information about our company then go to our page ["about the company"]({{ site.url }}/company/about_company/)
 
