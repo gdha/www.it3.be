@@ -17,4 +17,9 @@ Rear is a modular disaster recovery engine completely written in bash and releas
 
 If you are lost or seek for help to setup rear or to add new features into rear we can give you (paid) [rear support offerings]({{ site.url }}/rear-support/)
 
-External link to [Relax-and-Recover](http://relax-and-recover.org/)
+ - External link to [ReaR User Guide Documenation](https://relax-and-recover.org/rear-user-guide/)
+ - External link to [ReaR User Guide GitHub Sources](https://github.com/rear/rear-user-guide)
+ - External link to [ReaR User Guide GitHub Issues](https://github.com/rear/rear-user-guide/issues)
+ - External link to [ReaR User Guide Sponsors](https://github.com/rear/rear-user-guide/blob/master/SPONSORS.md)
+ - External link to [Relax-and-Recover](http://relax-and-recover.org/)
+

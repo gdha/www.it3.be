@@ -37,6 +37,7 @@ Motivation is key for writing a decent ReaR User Guide:
  - For each customer buying a subscription we will spend some time per week on this project, e.g.
    for one REAR-10 subscription we will spend 1 hour per week working on the documentation. A REAR-100 subscription will guarantee 3 hours per week of work.
  - For each customer buying a ReaR subscription we will add the customer name to the [SPONSORS](https://github.com/rear/rear-user-guide/blob/master/SPONSORS.md) file (on approval only of course, otherwise we will just say 'anonymous' as customer name) so that the community can see how many sponsors there are and have a good feeling of the amount of time we will spend on the documentation project.
+ - Be aware that a [ReaR subscription]({{ site.url }}/rear-support/) is more then just writing good documentation.
 
 
  - External link to [ReaR User Guide Documenation](https://relax-and-recover.org/rear-user-guide/)
