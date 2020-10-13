@@ -10,6 +10,8 @@ author: gratien
 
 <strong>Raspberry Pi 4 cluster Series part 1</strong>
 
+#### Update: Raspberry Pi 4 cluster Series moved to [https://gdha.github.io/pi-stories/](https://gdha.github.io/pi-stories/)
+
 Before we can build a PI 4 cluster using kubernetes software of some kind (most likely k3s) we need to buy the required hardware to begin with. In our case we decided to go for 5 Raspberry Pi's type 4 with 4 GB RAM. We leave the exercise to you what size of SD card you want (more GB cost more money, but gives you some room for expansion later on). We also bought some small USB sticks (type SanDisk Ultra Fit USB 3.1 flash drive 128 GB) for building an object oriented file system (but that is for a later series).
 
 Also, we bought some PI cases with fans built-in to keep the processor cool as we know kubernetes may heat up the processor [1]. We noticed that the temperature of a case with fans is around 40 degrees Celsius where with a metal case only (without fans) it is around 60 degrees Celsius. Decided to buy quickly an extra case with fans as it is worth its money.
@@ -104,7 +106,9 @@ OK so far for the first part, but just want to share picture of our setup with 5
 
 [2] [Download your Ubuntu Pi image](https://ubuntu.com/download/raspberry-pi)
 
+[3] [Raspberry Pi 4 cluster Series](https://gdha.github.io/pi-stories/)
 
 ### Edit history
 
 - Initial post on 01 July 2020
+- Updated with [3] on 13 October 2020

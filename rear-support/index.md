@@ -64,13 +64,24 @@ To make you life easy we have foreseen the following ReaR subscription options (
 
 ## Relax-and-Recover (ReaR) Support Services
 
-Be aware that each ReaR support contract does not include a ReaR Software Subscription, so you need to buy a seperate ReaR subscription based on the amount of units (a system where ReaR is installed and configured).
+Be aware that each ReaR support contract does include a ReaR Software Subscription, so there is no need to buy a seperate ReaR subscription based on the amount of units (a system where ReaR is installed and configured).
+
+Which are the added values for buying a ReaR Support Contract?
+
+* A ReaR Subscription is included for FREE bringing you:
+  - Semi-automated testing for your desired Linux distribution
+  - Quality Assurance of the code
+  - Automated building of packages for various distributions on a daily basis
+  - Continous development, bug fixes, updating documentation
+  - Adding pages to the [ReaR User Guide](https://relax-and-recover.org/rear-user-guide/)
+* Analysis of reported incidents including providing work-arounds, advise, bug fixes
+* Prepare special hot fixes
 
 We have the following ReaR Support Contracts available according your needs:
 
 * Standard (REAR-S) foresees maximum 5 incidents with a response time within *two* business days
 * Advanced (REAR-A) foresees maximum 10 incidents with a response time on the *next* business day
-* Business (REAR-B) foresees maximum 20 incidents with a response time on the *same* business day
+* Business (REAR-B) foresees maximum 12 incidents with a response time on the *same* business day
 
 For more information about the Service Level Agreements (SLA) or prices please [see the rear support services PDF file]({{ site.url }}/rear-support/rear-support-pricelist.pdf). If you feel the need to talk to an human or want more information about our company then go to our page ["about the company"]({{ site.url }}/company/about_company/)
 
@@ -91,7 +102,7 @@ The ReaR community also delivers support for ReaR free of charge, but no guarant
 
 ## ReaR Workshops
 
-We organize on request ReaR workshops in our offices or at customer's location. The workshop content is customer tailored and contains plenty of lab exercises. An example of such workshop agenda could be:
+We organize on request [ReaR workshops](https://github.com/rear/rear-workshop) in our offices or at customer's location. The workshop content is customer tailored and contains plenty of lab exercises. An example of such workshop agenda could be:
 
 -	Introduction to ReaR
 -	How to set it up and configure it
