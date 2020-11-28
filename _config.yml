@@ -17,6 +17,8 @@ share_google: true
 share_facebook: false
 share_reddit: false
 
+excerpt_separator: ""
+
 # Put the authors in alphabetical order
 authors:
   gratien:

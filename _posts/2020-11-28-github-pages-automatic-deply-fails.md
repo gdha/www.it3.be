@@ -148,16 +148,21 @@ jobs:
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: $\{\{ secrets.GITHUB_TOKEN }}
           publish_dir: ./site
 ```
 
+Be aware, that in [above workflow](https://github.com/rear/rear-user-guide/blob/master/.github/workflows/main.yml) the github_token contains backslashes, but in reality these may not be there (just needed them to display the secret environment variable).
 
 ### References:
 
 [1] [Relax-and-Recover User Guide](https://github.com/rear/rear-user-guide)
+
 [2] [Deploying Mkdocs via Github Actions](https://bluegenes.github.io/mkdocs-github-actions/)
+
 [3] [GitHub Actions for GitHub Pages](https://github.com/peaceiris/actions-gh-pages)
+
+[4] [GitHub Actions workflow of the ReaR User Guide](https://github.com/rear/rear-user-guide/blob/master/.github/workflows/main.yml)
 
 ### Edit history
 
