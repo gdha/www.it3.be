@@ -95,7 +95,7 @@ We can deliver ReaR consultancy tasks remote and in-site to assist in getting st
 
 The ReaR community also delivers support for ReaR free of charge, but no guarantees of a quick answer or fix. Therefore, see our 
 
-* [Relax-and-Recover Documentation](http://relax-and-recover.org/documentation/)
+* [Relax-and-Recover Documentation](https://relax-and-recover.org/documentation/)
 * [rear-users mailing list](http://lists.relax-and-recover.org/mailman/listinfo/rear-users)
 * [Rear issue and/or bug tracker](https://github.com/rear/rear/issues)
 
@@ -120,4 +120,4 @@ We organize on request [ReaR workshops](https://github.com/rear/rear-workshop) i
 -	Wrap up and Frequently Asked Questions
 
 
-On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html), [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/?eventid=2653) and the workshop organized at the [Open Source Backup Conference, Cologne](http://osbconf.org/workshops/) in 2016.
+On regular basis we do a free workshop at conferences, such as the one we organized at [LinuxTag 2012](http://www.linuxtag.org/2012/de/program/workshops/workshops/vortragsdetails-talkid701.html), [LinuxTag 2014](http://www.linuxtag.org/2014/de/programm/vortragsdetails/2653/) and the workshop organized at the [Open Source Backup Conference, Cologne](https://osbconf.org/wp-content/uploads/2016/09/Building-a-Business-Continuity-Plan-with-Bareos-and-REAR-Gratien-D%C2%B4haese.pdf) in 2016.
