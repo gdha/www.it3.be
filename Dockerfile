@@ -1,10 +1,12 @@
 # Dockerfile to build/generate web-site www.it3.be
-# docker build -t jekyll .
+# docker build -t jekyll --build-arg local_user=gdha --build-arg local_id=1000 .
 # docker run -it -v /home/gdha/projects/web/www.it3.be:/home/gdha/www.it3.be  -v /home/gdha/.netrc:/home/gdha/.netrc --net=host jekyll
 # Afterwards we can just start the container as:
 # docker start -i jekyll
 
 FROM ubuntu:18.04
+ARG local_user=gdha
+ARG local_id=1000
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 RUN apt-get update \
@@ -25,14 +27,14 @@ RUN gem install jekyll \
     && gem install redcarpet \
     && gem install therubyracer
 
-RUN useradd -u 1001 gdha && \
-    mkdir -p /home/gdha/www.it3.be && \
-    chown -R gdha:gdha /home/gdha
+RUN useradd -u ${local_id} ${local_user} && \
+    mkdir -p /home/${local_user}/www.it3.be && \
+    chown -R ${local_user}:${local_user} /home/${local_user}
 
 # Needed to make nerdtree plugin for vim work
 RUN locale-gen en_US.UTF-8 && \
-    echo "export LC_CTYPE=en_US.UTF-8" >> /home/gdha/.bashrc && \
-    echo "export LC_ALL=en_US.UTF-8" >> /home/gdha/.bashrc
+    echo "export LC_CTYPE=en_US.UTF-8" >> /home/${local_user}/.bashrc && \
+    echo "export LC_ALL=en_US.UTF-8" >> /home/${local_user}/.bashrc
 
-WORKDIR /home/gdha/www.it3.be
-USER gdha
+WORKDIR /home/${local_user}/www.it3.be
+USER ${local_user}
