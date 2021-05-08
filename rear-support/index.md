@@ -44,7 +44,7 @@ By taking a ReaR Software Subscription you will also sponsor our project "[Relax
 
 Futhermore, a ReaR Subscription will allow us to work 1 hour per week (for REAR-10) and 3 hours per week (for REAR-100 and above) on the [Relax-and-Recover User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) project.
 
-To make you life easy we have foreseen the following ReaR subscription options (on yearly basis):
+To make your life easy we have foreseen the following ReaR subscription options (on yearly basis):
 
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
