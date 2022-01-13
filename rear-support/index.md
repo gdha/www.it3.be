@@ -42,7 +42,7 @@ Above list are paid services and are delivered by IT3 Consultants' author of Rea
 We offer software subscriptions so we are able to spend time on continous improvements of the code base and to be able to build automated test environments. As you are probably aware this cost a lot of money (and we invested a lot already) and time which we cannot spend on other (paid) projects. If you like ReaR and want us to keep up doing the good work then we would appreciate you go for a software subscription. We will mail you an invoice which acts as a proof for a valid software subscription.
 By taking a ReaR Software Subscription you will also sponsor our project "[Relax-and-Recover Automated Testing]({{ site.url }}/projects/rear-automated-testing/)" which we use to test all updates on a regular basis.
 
-Futhermore, a ReaR Subscription will allow us to work 1 hour per week (for REAR-10) and 3 hours per week (for REAR-100 and above) on the [Relax-and-Recover User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) project.
+Futhermore, a ReaR Subscription will buy us time to work on the [Relax-and-Recover User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) project.
 
 To make your life easy we have foreseen the following ReaR subscription options (on yearly basis):
 
@@ -51,9 +51,9 @@ To make your life easy we have foreseen the following ReaR subscription options 
 <input type="hidden" name="hosted_button_id" value="H2ABG5W4D23FW">
 <table>
 <tr><td><input type="hidden" name="on0" value="ReaR Subscription (for one year)">ReaR Subscription (for one year)</td></tr><tr><td><select name="os0">
-	<option value="REAR-10">REAR-10 : €60,00 EUR - yearly</option>
-	<option value="REAR-100">REAR-100 : €450,00 EUR - yearly</option>
-	<option value="REAR-1000">REAR-1000 : €3 000,00 EUR - yearly</option>
+	<option value="REAR-10">REAR-10 : €60,00 EUR - yearly (between 1 and 10 systems)</option>
+	<option value="REAR-100">REAR-100 : €450,00 EUR - yearly (between 1 and 100 systems)</option>
+	<option value="REAR-1000">REAR-1000 : €3 000,00 EUR - yearly (more then 100 systems)</option>
 </select> </td></tr>
 </table>
 <input type="hidden" name="currency_code" value="EUR">
@@ -74,10 +74,11 @@ Which are the added values for buying a ReaR Support Contract?
   - Automated building of packages for various distributions on a daily basis
   - Continous development, bug fixes, updating documentation
   - Adding pages to the [ReaR User Guide](https://relax-and-recover.org/rear-user-guide/)
+* Direct mail and/or phone assistance
 * Analysis of reported incidents including providing work-arounds, advise, bug fixes
 * Prepare special hot fixes
 
-We have the following ReaR Support Contracts available according your needs:
+We have the following types of "ReaR Support Contracts" available according your needs:
 
 * Standard (REAR-S) foresees maximum 5 incidents with a response time within *two* business days
 * Advanced (REAR-A) foresees maximum 10 incidents with a response time on the *next* business day
@@ -96,6 +97,7 @@ We can deliver ReaR consultancy tasks remote and in-site to assist in getting st
 The ReaR community also delivers support for ReaR free of charge, but no guarantees of a quick answer or fix. Therefore, see our 
 
 * [Relax-and-Recover Documentation](https://relax-and-recover.org/documentation/)
+* [Relax-and-Recover User Guide](https://relax-and-recover.org/rear-user-guide/)
 * [rear-users mailing list](http://lists.relax-and-recover.org/mailman/listinfo/rear-users)
 * [Rear issue and/or bug tracker](https://github.com/rear/rear/issues)
 
