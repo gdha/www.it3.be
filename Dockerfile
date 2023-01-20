@@ -15,6 +15,7 @@ RUN apt-get update \
     && apt-get install -y --no-install-recommends curl \
     ruby-full \
     ruby-dev \
+    rubygems-integration \
     make \
     gcc \
     curl \
@@ -30,7 +31,7 @@ RUN apt-get update \
     && rm -rf /var/lib/apt/lists/*
 
 # install ruby gems
-RUN gem install jekyll \
+RUN gem install jekyll --version="~> 4.2.0" \
     && gem install redcarpet \
     && gem install therubyracer
 
