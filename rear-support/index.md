@@ -46,21 +46,19 @@ Futhermore, a ReaR Subscription will buy us time to work on the [Relax-and-Recov
 
 To make your life easy we have foreseen the following ReaR subscription options (on yearly basis):
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="H2ABG5W4D23FW">
-<table>
-<tr><td><input type="hidden" name="on0" value="ReaR Subscription (for one year)">ReaR Subscription (for one year)</td></tr><tr><td><select name="os0">
-	<option value="REAR-10">REAR-10 : €60,00 EUR - yearly (between 1 and 10 systems)</option>
-	<option value="REAR-100">REAR-100 : €450,00 EUR - yearly (between 1 and 100 systems)</option>
-	<option value="REAR-1000">REAR-1000 : €3 000,00 EUR - yearly (more then 100 systems)</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="EUR">
-<input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+<script src="https://www.paypal.com/sdk/js?client-id=BAARBMu_8F_9_hBI3jXTTIVK6gCxpmmxnXyjxVADQHxBeOTVVHLuHSXiNN-0_pgjvK6-q6cSukH4Me0LNg&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+<div id="paypal-container-J9E63UUUZUVKA"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "J9E63UUUZUVKA",
+  }).render("#paypal-container-J9E63UUUZUVKA")
+</script>
 
+or scan via your smartphone 
+
+<img src="{{ site.url }}/images/ReaR-Subscript-qrcode.png" width="100" height="100" border="0" alt="Rear PayPal QRcode" />
+
+<p>to buy your ReaR Subscription.</p>
 
 ## Relax-and-Recover (ReaR) Support Services
 

@@ -18,24 +18,16 @@ Motivation is key for writing a decent ReaR User Guide:
 
  - Writing good documentation is not easy
  - Writing takes time and comes with a cost
- - Buy time with subscribing to the REAR-10 or REAR-100 subscription (an invoice will be provided for your bookkeeping):
+ - Buy time with subscribing to the REAR-subscription (an invoice will be provided for your bookkeeping):
 
-<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="H2ABG5W4D23FW">
-<table>
-<tr><td><input type="hidden" name="on0" value="ReaR Subscription (for one year)">ReaR Subscription (for one year)</td></tr><tr><td><select name="os0">
-        <option value="REAR-10">REAR-10 : €60,00 EUR - yearly</option>
-        <option value="REAR-100">REAR-100 : €450,00 EUR - yearly</option>
-</select> </td></tr>
-</table>
-<input type="hidden" name="currency_code" value="EUR">
-<input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_subscribeCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+<script src="https://www.paypal.com/sdk/js?client-id=BAARBMu_8F_9_hBI3jXTTIVK6gCxpmmxnXyjxVADQHxBeOTVVHLuHSXiNN-0_pgjvK6-q6cSukH4Me0LNg&components=hosted-buttons&disable-funding=venmo&currency=EUR"></script>
+<div id="paypal-container-J9E63UUUZUVKA"></div>
+<script>
+  paypal.HostedButtons({
+    hostedButtonId: "J9E63UUUZUVKA",
+  }).render("#paypal-container-J9E63UUUZUVKA")
+</script>
 
- - For each customer buying a subscription we will spend some time per week on this project, e.g.
-   for one REAR-10 subscription we will spend 1 hour per week working on the documentation. A REAR-100 subscription will guarantee 3 hours per week of work.
  - For each customer buying a ReaR subscription we will add the customer name to the [SPONSORS](https://github.com/rear/rear-user-guide/blob/master/SPONSORS.md) file (on approval only of course, otherwise we will just say 'anonymous' as customer name) so that the community can see how many sponsors there are and have a good feeling of the amount of time we will spend on the documentation project.
  - Be aware that a [ReaR subscription]({{ site.url }}/rear-support/) is more then just writing good documentation.
 
