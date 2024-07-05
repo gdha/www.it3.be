@@ -19,7 +19,7 @@ This has to do with SMART capabilities as we can see with the command:
     $ sudo smartctl -i /dev/sda | grep SMART
     SMART support is:     Unavailable - device lacks SMART capability.
 
-Fine, how can we disbale it then? Execute the following set of commands:
+Fine, how can we disable it then? Execute the following set of commands:
 
     $ find /sys | grep max_write_same_blocks
     /sys/devices/pci0000:00/0000:00:10.0/host2/target2:0:0/2:0:0:0/scsi_disk/2:0:0:0/max_write_same_block

@@ -10,7 +10,7 @@ author: gratien
 
 UEFI ISO booting is possible with the standard available `mkisofs` or `genisoimage` executable on Debian, Ubuntu and RedHat derivates. 
 
-However, on SuSe SLES or OpenSuSe systems the above mentioned iso creator cannot produce an ISO image which is able to boot on UEFI based systems. The history goes way back to March 2013 - see the discussion of [Rear issue #214](https://github.com/rear/rear/issues/214) for some back ground noice. 
+However, on SuSe SLES or OpenSuSe systems the above mentioned iso creator cannot produce an ISO image which is able to boot on UEFI based systems. The history goes way back to March 2013 - see the discussion of [Rear issue #214](https://github.com/rear/rear/issues/214) for some back ground. 
 
 Finally, there is some good news! The project *ebiso* from Vladimir Gozora wrote the missing piece especially for UEFI SLES systems in combination with Relax-and-Recover. The usage of `ebiso` is extremely simple (I like the kiss principle):
 
@@ -25,7 +25,9 @@ Be aware, that `ebiso` awareness into rear was introduced after the *rear-1.17.2
 Thanks to `ebiso` and `rear` SAP HANA systems running on top of SuSe SLES 11 (or SLES 12) can be recovered - finally! No more legacy boot method needed - Yeah... 
 
 We hope you might find `ebiso` useful!
-Gratien
+
+
+Update: These days `ebiso` is not required anymore on SuSe SLES systems (2024).
 
 Related links:
 

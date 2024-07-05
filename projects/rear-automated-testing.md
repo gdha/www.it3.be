@@ -24,7 +24,7 @@ To name a few and do not forget these distributions supports also different hard
 Summary - testing is a nighmare before we can bring out a new release. We suspect that the end-users of ReaR have no clue of the amount of tests are necessary before we are convinced that a  fresh ReaR release is stable enough to set free.
 Above all, you cannot do enough tests, but doing enough tests is not possible due to limited resources (hardware), and hand labour as automating was almost not possible as a disaster recovery exercise needs manual intervention.
 
-This project "[ReaR Automated Testing](https://gdha.github.io/rear-automated-testing/)" wanted to automate as much as possible for a limited set of cases. We started this project for our customers with a valid [ReaR Support contract]({{ site.url }}/rear-support/) as an additional support service. ReaR Automated Testing project is an Open Source project (license based on GPLv3) so that everybody may benifit from it and can freely use it (and/or improve/enhance).
+This project "[ReaR Automated Testing](https://gdha.github.io/rear-automated-testing/)" wanted to automate as much as possible for a limited set of cases. We started this project for our customers with a valid [ReaR Support contract]({{ site.url }}/rear-support/) as an additional support service. ReaR Automated Testing project is an Open Source project (license based on GPLv3) so that everybody may benefit from it and can freely use it (and/or improve/enhance).
 
 In the past, we did tests on:
 
@@ -37,7 +37,7 @@ Present time: the project is on-hold due to no funding anymore! Open Source is f
 If you would like to see your use case being automated tested you need to subscribe for one of the [ReaR support offerings]({{ site.url }}/rear-support/)
 Want to know more? Perhaps watch one of the [presentation about ReaR Automated Testing](https://media.ccc.de/v/froscon2017-1957-relax-and-recover_automated_testing).
 
- - External link to [ReaR Automated Testing Documenation](https://gdha.github.io/rear-automated-testing/)
+ - External link to [ReaR Automated Testing Documentation](https://gdha.github.io/rear-automated-testing/)
  - External link to [ReaR Automated Testing GitHub Sources](https://github.com/gdha/rear-automated-testing)
  - External link to [ReaR Automated Testing GitHub Issues](https://github.com/gdha/rear-automated-testing/issues)
  - External link to [Presentation at FroSCon 2017 about ReaR Automated Testing](https://media.ccc.de/v/froscon2017-1957-relax-and-recover_automated_testing)

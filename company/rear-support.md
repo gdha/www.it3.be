@@ -17,7 +17,7 @@ We have a dedicated web site on rear at [http://relax-and-recover.org/](http://r
 
 The code is completely free and is published with the GNU Public Licence version 2. We're very proud that ReaR has become part of the Fedora, RHEL and OpenSuSe distributions.  That shows that the code become quite mature and has proven to be very stable.
 
-When we said ReaR is a disaster recovery framework we meant each module is small and has its own specific goal. ReaR creates an ISO image to boot from in case of disaster and the backup can be stores practically anywhere (NFS, CIFS, USB disks, remote tape devices). We go even one step further and offer to integrate with commercial backup solutions such as Tivoli, NetBackup and Data Protector. More improtant are the integrations with Open Source backup software such as Bareos, Bacula, Borg Backup and duplicity.
+When we said ReaR is a disaster recovery framework we meant each module is small and has its own specific goal. ReaR creates an ISO image to boot from in case of disaster and the backup can be stores practically anywhere (NFS, CIFS, USB disks, remote tape devices). We go even one step further and offer to integrate with commercial backup solutions such as Tivoli, NetBackup and Data Protector. More important are the integrations with Open Source backup software such as Bareos, Bacula, Borg Backup and duplicity.
 
 We can imagine this may sound a bit overwhelming to you, but we can help you out with offering services around ReaR.
 

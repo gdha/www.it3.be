@@ -22,7 +22,7 @@ How does the script work? We have added a simple help interface:
 
     # ./test-acl-bounderies.sh
     Usage: test-acl-bounderies.sh [-m <mail1,mail2>] [-c] [-dhv] integer
-            -m: The mail recipients seperated by comma.
+            -m: The mail recipients separated by comma.
             -d: test ACLs out on a directory as well as on a file
             -c: cleanup all users and groups
             -h: This help message.
@@ -88,7 +88,7 @@ To calculate the amount of ACLs on the `testfile` you need to execute the follow
     # getfacl testfile | grep -v \# | wc -l
     9
     
-To find the ACL bounderies you need to create a bit more users and groups, 500, 1000, or 2000 that is up to you. We will try 2000 to start with (will skip most of the output):
+To find the ACL boundaries you need to create a bit more users and groups, 500, 1000, or 2000 that is up to you. We will try 2000 to start with (will skip most of the output):
 
     # ./test-acl-bounderies.sh 2000
     ....

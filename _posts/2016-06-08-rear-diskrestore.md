@@ -15,7 +15,7 @@ recreate the `diskrestore.sh` script by hand (or at least pieces of it).
 
 Therefore, we thought it would be nice if we wrote a script which re-creates the `diskrestore.sh` script as we
 were busy with doing a *`rear recover`* without destroying our disks of course. It is always nice to see what
-rear makes of the given `disklayout.conf` input and see what the corresponsing output is (`diskrestore.sh`).
+rear makes of the given `disklayout.conf` input and see what the corresponding output is (`diskrestore.sh`).
 That way it makes it easier to understand what might be the issue.
 
 The script `make_rear_diskrestore_script.sh` can be download from the *mismas* github project of Gratien and does

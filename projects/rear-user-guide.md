@@ -30,10 +30,10 @@ Motivation is key for writing a decent ReaR User Guide:
 
  - For each customer buying a ReaR subscription we will add the customer name to the [SPONSORS](https://github.com/rear/rear-user-guide/blob/master/SPONSORS.md) file (on approval only of course, otherwise we will just say 'anonymous' as customer name) so that the community can see how many sponsors there are and have a good feeling of the amount of time we will spend on the documentation project.
 
- - With buying a [ReaR subscription]({{ site.url }}/rear-support/) you not only sponsor writing decent documentation, but also guarntees a continous effort to improve the ReaR software.
+ - With buying a [ReaR subscription]({{ site.url }}/rear-support/) you not only sponsor writing decent documentation, but also guarantees a continuous effort to improve the ReaR software.
 
 
- - External link to [ReaR User Guide Documenation](https://relax-and-recover.org/rear-user-guide/)
+ - External link to [ReaR User Guide Documentation](https://relax-and-recover.org/rear-user-guide/)
  - External link to [ReaR User Guide GitHub Sources](https://github.com/rear/rear-user-guide)
  - External link to [ReaR User Guide GitHub Issues](https://github.com/rear/rear-user-guide/issues)
  - External link to [ReaR User Guide Sponsors](https://github.com/rear/rear-user-guide/blob/master/SPONSORS.md)

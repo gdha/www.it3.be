@@ -20,7 +20,7 @@ If you see error lines like shown below:
     10/13/14 20:21:35 commonLog 229 CRITICAL 490 11 Error while updating database. Unable to connect to database LOGDB.
     10/14/14 02:21:35 commonLog 231 CRITICAL 24430 11 Error connecting to Common Log database.
 
-Then, your postgress database is not working anymore. Why? Not very clear, but most likely after an upgrade of the System Fault Management software the database got corrupted. To get this fixed (as nothing is recorded anyway, nor send to HP SIM) do the following steps:
+Then, your postgresql database is not working anymore. Why? Not very clear, but most likely after an upgrade of the System Fault Management software the database got corrupted. To get this fixed (as nothing is recorded anyway, nor send to HP SIM) do the following steps:
 
     swconfig -u SysFaultMgmt
     swconfig SysFaultMgmt

@@ -11,7 +11,7 @@ tags: [cfg2html, open source, korn shell script, HP-UX, SunOS, AIX, Linux, IT3 C
 
 <iframe width="280" height="210" src="//www.youtube.com/embed/qqBf-VS9Gmk" align="right"><p>cfg2html</p></iframe>
 
-Collects Linux system configuration into a HTML and text file. Config to HTML is the "swiss army knife" for the sysadmins. It was written to get the necessary informations to plan an update, to perform basic trouble shooting or performance analysis. As a bonus cfg2html creates a nice HTML and plain ASCII documentation from Linux System, Cron and At, installed Hardware, installed Software, Filesystems, Dump- and Swap-configuration, LVM, Network Settings, Kernel, System enhancements and Applications, Subsystems.
+Collects Linux system configuration into a HTML and text file. Config to HTML is the "swiss army knife" for the sysadmins. It was written to get the necessary information to plan an update, to perform basic trouble shooting or performance analysis. As a bonus cfg2html creates a nice HTML and plain ASCII documentation from Linux System, Cron and At, installed Hardware, installed Software, Filesystems, Dump- and Swap-configuration, LVM, Network Settings, Kernel, System enhancements and Applications, Subsystems.
 
 Cfg2html works on Linux, HP-UX, SunSO, AIX...
 

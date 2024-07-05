@@ -34,7 +34,7 @@ The following list of consultancy tasks are offered by IT3 Consultants:
    - [Relax-and-Recover (ReaR) User Guide Documentation]({{ site.url }}/projects/rear-user-guide/) project
    - [Upgrade-UX]({{ site.url }}/projects/upgrade-ux/): Open Source update and/or patching framework for HP-UX and/or Linux
    - [Config to HTML (cfg2html)]({{ site.url }}/projects/cfg2html/): GNU/Linux Configuration Collector
-   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr/): deploy and run software on many simultanous systems (archived)
+   - [Ad-hoc Copy and Run (adhocr)]({{ site.url }}/projects/adhocr/): deploy and run software on many simultaneous systems (archived)
    - [WBEMextras]({{ site.url }}/projects/wbemextras/): HP SIM software installer and configurator for HP-UX systems (archived)
    - [Make CD-ROM Recovery (mkCDrec)]({{ site.url }}/projects/mkcdrec/): GNU/Linux DR solution (archived)
 

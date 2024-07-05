@@ -64,7 +64,7 @@ From your Ubuntu desktop (via a terminal window) login on the remote server from
 DISPLAY=:1 ssh -X n5
 ```
 
-The `-X` flag means we want to forward X11 displays and when you type the coomand `echo $DISPLAY` (on the remote system) you will see it echos:
+The `-X` flag means we want to forward X11 displays and when you type the command `echo $DISPLAY` (on the remote system) you will see it echos:
 
 ```bash
 n5:10.0

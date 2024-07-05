@@ -65,7 +65,7 @@ Ah, seems we first need to run the `xfs_pair` command:
     Phase 7 - verify and correct link counts...
     resetting inode 246 nlinks from 2 to 3
     Metadata corruption detected at xfs_dir3_block block 0x1e36658/0x1000
-    libxfs_writebufr: write verifer failed on xfs_dir3_block bno 0x1e36658/0x1000
+    libxfs_writebufr: write verifier failed on xfs_dir3_block bno 0x1e36658/0x1000
     Maximum metadata LSN (772:2803) is ahead of log (1:2).
     Format log to cycle 775.
     releasing dirty buffer (bulk) to free list!done
@@ -83,8 +83,8 @@ Check if the new UUID was correctly added and try to mount the device:
     /dev/nvme4n1p2: UUID="287d622b-f7d2-4ef8-a266-25522426ca84" TYPE="xfs" PARTUUID="a34cf35b-104d-49b0-ae11-f664a286af07"
     # mount -t xfs /dev/nvme4n1p2 /mnt
 
-Finallly, we can start digging into the content of the device mount on `/mnt` and do whatever was required.
-Perhaps, one note if this device will be moved back to the original EC2 instance do not forget to updat the `/mnt/etc/fstab` file with the updated UUID of this modified boot device.
+Finally, we can start digging into the content of the device mount on `/mnt` and do whatever was required.
+Perhaps, one note if this device will be moved back to the original EC2 instance do not forget to update the `/mnt/etc/fstab` file with the updated UUID of this modified boot device.
 
-Hope you enjoyed this artice.
+Hope you enjoyed this article.
 regards, Gratien

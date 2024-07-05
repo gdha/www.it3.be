@@ -21,4 +21,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install codespell
     - name: Check spelling
-      run: codespell --skip=.git,./renovate.json,./LICENSE,CHANGELOG.rst --check-filenames --ignore-regex=.te# --ignore-words=.codespellignore
+      run: codespell --skip=".git,./renovate.json,./LICENSE,*.pdf,*.js" --check-filenames --ignore-regex=.te# --ignore-words=.codespellignore

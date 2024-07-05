@@ -14,7 +14,7 @@ Personally we work on the project [ebiso](https://github.com/gozora/ebiso/wiki) 
 
 Of course, first of all you need to *fork* a copy of the sources at the upstream GitHub home page of the sources. This part is explained well in the tutorial 'Keeping your forked repo synced with the upstream source'. To clone your copy of the fork you need to go to your personal home page of GitHub and select the new *forked* project and copy the URL provided.
 
-On a bash prompt you can then clone the fork to your own dircetories as follow:
+On a bash prompt you can then clone the fork to your own directories as follow:
 
     $ git clone git@github.com:gdha/ebiso.git
 

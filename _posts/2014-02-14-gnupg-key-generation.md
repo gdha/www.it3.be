@@ -46,7 +46,7 @@ The next question is the time before the generated keys expire. We tend to use a
     Is this correct? (y/N) y
     
 
-The during the key generating process it is requesting the identity for whom the keys are ment:
+The during the key generating process it is requesting the identity for whom the keys are meant:
 
     You need a user ID to identify your key; the software constructs the user ID
     from the Real Name, Comment and Email Address in this form:

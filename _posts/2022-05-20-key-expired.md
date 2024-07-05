@@ -10,7 +10,7 @@ author: gratien
 
 <strong>How to renew an expired key of Ubuntu repository</strong>
 
-On my Ubuntu 18 system we cannot update our ReaR snapshot software package anymore, becasue the release key has been expired:
+On my Ubuntu 18 system we cannot update our ReaR snapshot software package anymore, because the release key has been expired:
 
 ```bash
 $ sudo apt-key list | grep -A 1 expired

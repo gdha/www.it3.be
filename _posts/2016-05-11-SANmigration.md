@@ -14,7 +14,7 @@ We needed to migrate an older HP-UX system from one data center to another witho
 
 At that moment in time I realized I wrote some scripts to do exactly the same 4 years ago to recreate an exact copy of the VGs and so on of systems located in a remote data center which needed to be migarted via tapes (it was from an external party). Therefore, I decided to give it a try.
 
-First of all grab the sources of the script [1] and install it somewhere on the source and target system. An important note is that the target system needs to have SAN storage available (amount of physical disks needs to be equal or more, and the size of the disks should be in the neighorhood of the original sizing).
+First of all grab the sources of the script [1] and install it somewhere on the source and target system. An important note is that the target system needs to have SAN storage available (amount of physical disks needs to be equal or more, and the size of the disks should be in the neighborhood of the original sizing).
 
 On the source system you just need to run the script:
 
@@ -121,7 +121,7 @@ There is only one mandatory parameter (`-f file`), all the others are optional. 
      ** Creating disk mapping file /tmp/sana22244/diskmap
      *** WARN: Try reducing the deviation 5, e.g. create_san_layout_script.sh -p 4
      *** ERROR: No free disk left anymore with size 67108864 kB /tmp/sana22244/freedisks
-     *** ERROR: Oops - 1 error(s) were encounterd by create_san_layout_script.sh on hpx208bi
+     *** ERROR: Oops - 1 error(s) were encountered by create_san_layout_script.sh on hpx208bi
 
 I suppose we were too optmistic! We need to edit the configuration file a bit so it matches the amount of disks.
 
@@ -176,7 +176,7 @@ Run the newly created script:
     vgcreate of /dev/vg01 failed. Do you want to continue y/N ?
     N
      ** Fix the error and retry...
-     *** ERROR: Oops - 1 error(s) were encounterd by make_SAN_layout_of_hpx208bi.sh on hpx208bi
+     *** ERROR: Oops - 1 error(s) were encountered by make_SAN_layout_of_hpx208bi.sh on hpx208bi
 
 Ok, we got it. Modify the script as demanded...and retry:
 

@@ -10,7 +10,7 @@ author: gratien
 
 <strong>How to modify the eject into delete key on the apple magic keyboard</strong>
 
-The apple magic keyboard is a little nice keyboard that works well with Linux (Ubuntu 18.04), but there is no Delete key present. However, the keyboard contains an eject key that is not usable, and is in fact on the same spot as the delet key. So, why not redefine this key into delete?
+The apple magic keyboard is a little nice keyboard that works well with Linux (Ubuntu 18.04), but there is no Delete key present. However, the keyboard contains an eject key that is not usable, and is in fact on the same spot as the delete key. So, why not redefine this key into delete?
 
 * Clear the eject button functionality
   - Load System Settings

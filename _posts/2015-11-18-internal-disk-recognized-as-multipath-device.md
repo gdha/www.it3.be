@@ -135,7 +135,7 @@ In case it would have been a RHEL system then we should use `dracut` (in stead o
 
 After the kernel has been rebuild you still need to verify the device names used in `/etc/fstab`,  `grub.conf` or `elilo.conf` need to be modified to the ones shown during the `mkinitrd` command run.
 
-Reboot the system when it is convinient (don't wait too long). However, it is important to inspect the system after the reboot.
+Reboot the system when it is convenient (don't wait too long). However, it is important to inspect the system after the reboot.
 If something went wrong you probably be thrown into single user mode where you get the chance to fix whatever went wrong.
 
 At last you can re-run `rear mkbackup` again which now should be able to create a successful archive.

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto build a rpm package without root priviledges
+title: Howto build a rpm package without root privileges
 description: Shows the commands to build a rpm package as plain user
 tags: [bash, shell, rpm, rpmbuild, linux, tutorial]
 author: gratien

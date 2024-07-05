@@ -10,12 +10,12 @@ author: gratien
 
 <strong>Explaining the usage of sgesap_validation.sh and sgesap_validation_wrapper.sh scripts</strong>
 
-The purpose of SGeSAP (Serviceguard extentions for SAP) is to integrate SAP start and stop functions into a serviceguard package.
-However, from experience we know it is easy to forget a critical setting or definition in the package configuration file. Furthermore, these little mistakes are not always easy to spot. This was the main reason why we developed this script to inspect the ASCII serviceguard package file before bringing the paqckage into production. In the meantime the script evoluated that it is now possible to inspect live (running) packages as well.
+The purpose of SGeSAP (Serviceguard extensions for SAP) is to integrate SAP start and stop functions into a serviceguard package.
+However, from experience we know it is easy to forget a critical setting or definition in the package configuration file. Furthermore, these little mistakes are not always easy to spot. This was the main reason why we developed this script to inspect the ASCII serviceguard package file before bringing the paqckage into production. In the meantime the script evaluated that it is now possible to inspect live (running) packages as well.
 
 From the start SGeSAP packages were in scope, but that does not mean we cannot verify non-SGeSAP packages as well. We will show you with some examples.
 
-_WARNING: this script will only work on Serviceguard version 11.20 and higher and is writtin for HP-UX 11.31. However, with minor modifications it can work on Linux as well_
+_WARNING: this script will only work on Serviceguard version 11.20 and higher and is written for HP-UX 11.31. However, with minor modifications it can work on Linux as well_
 
 The script must be run as root (sorry!) and without any argument it will show you the usage:
 
