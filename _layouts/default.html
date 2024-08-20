@@ -128,8 +128,9 @@
 						<a onclick="_gaq.push(['_trackEvent', 'Careers', 'email'])" href="mailto:{{ site.career_email }}">{{ site.career_email }}</a>
 					</div>
 					<div class="span3">
-						<a href="https://twitter.com/gratiendh" class="twitter-follow-button" data-show-count="false">Follow @gratiendh</a><br>
-					</div>
+						<a onclick="_gaq.push(['_trackEvent', 'GitHub', 'site'])" href="https://github.com/gdha"><h4>GitHub Pages</h4></a>
+						<a href="https://github.com/gdha"><img src="{{ site.url }}/images/github-light.png" width="35" height="35" frameborder="0" alt="GitHub page of gdha"></a>
+                                        </div>
 				</div>
 			</div>
 			<br>
@@ -159,8 +160,8 @@
                 <!--
 		<script type="text/javascript" src="http://analytics-api-samples.googlecode.com/svn/trunk/src/tracking/javascript/v5/social/ga_social_tracking.js"></script>
                 -->
+
 		{% if site.share_twitter == true %}
-		<!-- Twitter -->
 		<script type="text/javascript">
 			window.twttr = function(d,s,id){
 				var js,fjs=d.getElementsByTagName(s)[0];
@@ -180,6 +181,7 @@
 			});
 		</script>
 		{% endif %}
+
 		{% if site.share_google == true %}
 		<!-- Google Plus -->
 		<script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>

@@ -12,7 +12,7 @@ disqus_short_name: it3consultants
 
 analytics_code: UA-3406473-1
 
-share_twitter: true
+share_twitter: false
 share_google: true
 share_facebook: false
 share_reddit: false
@@ -27,7 +27,7 @@ authors:
     position: Unix/Linux Consultant
     start_date: 1996-04-01
     github: gdha
-    twitter: gratiendh
+    twitter: removed
     linkedin: gratiendhaese
     gravatar: 79ba5ce1fe4f33cf89996260d80e77ec
     about: Besides IT3 Consultants, he is the author of several Open Source projects (see <a href="https://github.com/gdha" title="Github page of Gratien">GitHub page of Gratien Dhaese)</a>.
