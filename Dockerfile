@@ -6,7 +6,7 @@
 # Afterwards we can just start the container as:
 # docker start -i jekyll
 
-FROM ubuntu:22.04
+FROM ubuntu:24.04
 ARG local_user=gdha
 ARG local_id=1002
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
