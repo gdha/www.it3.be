@@ -21,8 +21,8 @@ jobs:
         run: |
           # get file names and separate them with space ' '
           #files=$(gh pr diff ${{ github.event.pull_request.number }} --name-only | xargs -I {} sh -c "echo \'./{}\'" | tr '\n' ' ')
-          gh api '/repos/gdha/www.it3.be/git/trees/master?recursive=true' -q '.tree[]|.path' | xargs -I {} sh -c 'echo ./{}' | sort >./full
-          echo "EXCLUDE_FILE=./full" >> "$GITHUB_ENV"          
+          gh api '/repos/gdha/www.it3.be/git/trees/master?recursive=true' -q '.tree[]|.path' | xargs -I {} sh -c 'echo ./{}' | grep '.md$' >./md_files
+          echo "EXCLUDE_FILE=./md_files" >> "$GITHUB_ENV"
 
       - name: 🔸 Output the Exclude File
         run: cat ${{ env.EXCLUDE_FILE }}
@@ -33,7 +33,7 @@ jobs:
           check_filenames: true
           check_hidden: true
           ignore_words_file: .codespellignore
-          skip: .git,./renovate.json,./LICENSE,*.js,*.pdf,*.html,*.yml,./full
+          skip: .git,./renovate.json,./LICENSE,*.js,*.pdf,*.html,*.yml
           exclude_file: ${{ env.EXCLUDE_FILE }}
           #path: ${{ env.CHANGED_FILES }}
 
